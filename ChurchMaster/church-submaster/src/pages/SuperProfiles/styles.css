@@ -1,0 +1,21 @@
+.containerBlue{
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin-top: 40px;
+}
+.containerBlue .profile-img,.profile-desc{
+    width: 50%;
+    height: 100%;
+    float: left;
+    margin-bottom: 40px;
+}
+.containerBlue .profile-img img{
+    width: 100%;
+    height: 100%;
+}
+@media screen and (max-width:1000px){
+    .containerBlue .profile-img,.profile-desc{
+        width: 100%;
+    }
+}
