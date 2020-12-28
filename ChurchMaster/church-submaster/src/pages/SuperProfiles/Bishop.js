@@ -9,7 +9,7 @@ function Bishop() {
             </div>
             <div className="profile-desc">
                 <h2>Word from our spiritual father</h2>
-                <h1 style="color:blue; font-weight:bolder;">Bishop Jimmy Bett</h1>
+                <h1 className="head">Bishop Jimmy Bett</h1>
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Exercitationem voluptates dicta sed doloremque et non esse modi saepe nemo mollitia atque quo accusamus odio quam, consectetur libero, commodi impedit animi!</p>
             </div>
         </div>
