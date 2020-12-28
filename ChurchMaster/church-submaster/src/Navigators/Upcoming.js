@@ -1,3 +1,10 @@
-import react from 'react' ;
+import React from 'react' ;
 
-function Upcoming()
+function Upcoming(){
+return(
+
+   <h1>Upcoming events 2021</h1>
+
+  )
+}
+export default Upcoming
