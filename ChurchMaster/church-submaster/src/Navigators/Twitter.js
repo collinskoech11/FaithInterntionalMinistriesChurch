@@ -11,7 +11,7 @@ function Twitter() {
              <TwitterTimelineEmbed
                 sourceType="profile"
                 screenName="FaithMinistry2"
-                options={{height:1000}}
+                options={{height:400}}
             />
         </div>
     )
