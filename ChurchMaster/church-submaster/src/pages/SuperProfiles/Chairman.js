@@ -8,7 +8,7 @@ function Chairman() {
             <div className="profile-title">
 
                 <h2>Our chairperson shares the vision of our church</h2>
-                <h1 className="head">Mr Stanle Cheruiyot</h1>
+                <h1 className="head">Mr Stanley Cheruiyot</h1>
             
             </div>
             <div className="profile-img">
