@@ -1,0 +1,15 @@
+.containerBlue{
+    margin-top:20px;
+}
+.head{
+    color:blue;
+    font-weight:bold;
+}
+.plot{
+    width:90%;
+    height:auto;
+    margin:5%;
+    border:2px solid rgb(0,0,255,0.5);
+    border-radius:20px;
+    padding:10px;
+}

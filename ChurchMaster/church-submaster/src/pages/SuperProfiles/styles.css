@@ -19,3 +19,11 @@
         width: 100%;
     }
 }
+.head{
+     color:blue; 
+     font-weight:bolder;
+}
+.profile-title{
+      width:100%;
+      height:auto;
+}

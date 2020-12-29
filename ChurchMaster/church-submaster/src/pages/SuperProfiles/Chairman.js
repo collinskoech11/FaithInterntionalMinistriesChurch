@@ -1,13 +1,14 @@
+
 import React from 'react';
 import './styles.css';
 
-function Bishop() {
+function Chairman() {
     return (
         <div className="containerBlue">
             <div className="profile-title">
 
-                <h2>Word from our spiritual father</h2>
-                <h1 className="head">Bishop Jimmy Bett</h1>
+                <h2>Our chairperson shares the vision of our church</h2>
+                <h1 className="head">Mr Stanley Cheruiyot</h1>
             
             </div>
             <div className="profile-img">
@@ -20,4 +21,4 @@ function Bishop() {
     )
 }
 
-export default Bishop
+export default Chairman
