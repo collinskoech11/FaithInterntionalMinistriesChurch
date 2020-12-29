@@ -43,7 +43,7 @@ const CustomFooter = () => {
           </MDBCol>
           <MDBCol md="2" lg="2" xl="2" className="mb-4">
             <h6 className="text-uppercase font-weight-bold">
-              <strong>Products</strong>
+              <strong>Focus Items</strong>
             </h6>
             <hr className="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style={{ width: "60px" }} />
             <p>
