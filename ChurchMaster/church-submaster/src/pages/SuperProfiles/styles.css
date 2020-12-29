@@ -3,12 +3,13 @@
     height: auto;
     text-align: center;
     margin-top: 40px;
+    margin-bottom: 100px;
+    display: inline-block;
 }
 .containerBlue .profile-img,.profile-desc{
     width: 50%;
     height: 100%;
     float: left;
-    margin-bottom: 40px;
 }
 .containerBlue .profile-img img{
     width: 100%;

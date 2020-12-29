@@ -1,6 +1,5 @@
 import React from 'react';
 import CarouselPage from '../Navigators/CarouselPage';
-import Pages from './Pages';
 import Bishop from './SuperProfiles/Bishop';
 import Chairman from './SuperProfiles/Chairman';
 import Upcoming from '../Navigators/Upcoming';

@@ -10,7 +10,7 @@ import Login from './pages/Login';
 import AboutPage from './pages/AboutPage';
 import ContactUs from './pages/ContactUs';
 import Location from './pages/Location';
-import SignUp from './pages/SignUp';
+import Litein from './pages/branches/Litein';
 import Bishop from './pages/SuperProfiles/Bishop'
 
 function App() {
@@ -30,9 +30,8 @@ function App() {
      
 
      {/*product screens */}
+     <Route path="/branches/litein" component={Litein}/>
      
-     <Route path="/SignUp" component={SignUp}/>
-     <Route path="/Login" component={Login}/>
      
      
      

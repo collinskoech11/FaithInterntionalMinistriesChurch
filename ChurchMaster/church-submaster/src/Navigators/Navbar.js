@@ -44,22 +44,22 @@ render() {
                   <span className="mr-2">Our Branches</span>
                 </MDBDropdownToggle>
                 <MDBDropdownMenu>
-                  <MDBDropdownItem href="/WomensWear">Kericho FMI</MDBDropdownItem>
-                  <MDBDropdownItem href="/MensWear">Ainamoi Nothern</MDBDropdownItem>
-                  <MDBDropdownItem href="Watches">Ainamoi Southern</MDBDropdownItem>
-                  <MDBDropdownItem href="Shoes">Kipkelion Region</MDBDropdownItem>
-                  <MDBDropdownItem href="Shoes">Londiani Region</MDBDropdownItem>
-                  <MDBDropdownItem href="Shoes">OLenguruone Region</MDBDropdownItem>
-                  <MDBDropdownItem href="Shoes">Kuresoi Region</MDBDropdownItem>
-                  <MDBDropdownItem href="Shoes">Kuresoi South</MDBDropdownItem>
-                  <MDBDropdownItem href="Shoes">Marishoni</MDBDropdownItem>
-                  <MDBDropdownItem href="Shoes">Changoi Region</MDBDropdownItem>
-                  <MDBDropdownItem href="Shoes">Litein Region</MDBDropdownItem>
-                  <MDBDropdownItem href="Shoes">Makimeny</MDBDropdownItem>
-                  <MDBDropdownItem href="Shoes">Tunioi</MDBDropdownItem>
-                  <MDBDropdownItem href="Shoes">Transmara</MDBDropdownItem>
-                  <MDBDropdownItem href="Shoes"></MDBDropdownItem>
-                  <MDBDropdownItem href="Shoes">Londiani Region</MDBDropdownItem>
+                  <MDBDropdownItem href="/branches/Kericho">Kericho FMI</MDBDropdownItem>
+                  <MDBDropdownItem href="/branches/AinamoiNorth">Ainamoi Nothern</MDBDropdownItem>
+                  <MDBDropdownItem href="/branches/AinamoiSouth">Ainamoi Southern</MDBDropdownItem>
+                  <MDBDropdownItem href="/branches/">Kipkelion Region</MDBDropdownItem>
+                  <MDBDropdownItem href="/branches/">Londiani Region</MDBDropdownItem>
+                  <MDBDropdownItem href="/branches/">OLenguruone Region</MDBDropdownItem>
+                  <MDBDropdownItem href="/branches/">Kuresoi Region</MDBDropdownItem>
+                  <MDBDropdownItem href="/branches/">Kuresoi South</MDBDropdownItem>
+                  <MDBDropdownItem href="/branches/">Marishoni</MDBDropdownItem>
+                  <MDBDropdownItem href="/branches/">Changoi Region</MDBDropdownItem>
+                  <MDBDropdownItem href="/branches/Litein">Litein Region</MDBDropdownItem>
+                  <MDBDropdownItem href="/branches/">Makimeny</MDBDropdownItem>
+                  <MDBDropdownItem href="/branches/">Tunioi</MDBDropdownItem>
+                  <MDBDropdownItem href="/branches/">Transmara</MDBDropdownItem>
+                  <MDBDropdownItem href="/branches/"></MDBDropdownItem>
+                  <MDBDropdownItem href="/branches/">Londiani Region</MDBDropdownItem>
                 </MDBDropdownMenu>
               </MDBDropdown>
             </MDBNavItem>
