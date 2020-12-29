@@ -91,9 +91,6 @@ render() {
                 </div>
               </MDBFormInline>
             </MDBNavItem>
-            <MDBNavItem>
-              <Nav.Link href="/Login">Login/SignUp</Nav.Link>
-            </MDBNavItem>
           </MDBNavbarNav>
         </MDBCollapse>
       </MDBNavbar>
