@@ -5,3 +5,10 @@
     color:blue;
     font-weight:bold;
 }
+.plot{
+    width:90%;
+    height:auto;
+    margin:5%;
+    border:1.5px solid blue;
+    border-radius:20px;
+}
