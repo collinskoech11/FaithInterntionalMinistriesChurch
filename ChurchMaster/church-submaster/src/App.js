@@ -11,6 +11,7 @@ import AboutPage from './pages/AboutPage';
 import ContactUs from './pages/ContactUs';
 import Location from './pages/Location';
 import Litein from './pages/branches/Litein';
+import Live from './pages/Live';
 import Bishop from './pages/SuperProfiles/Bishop'
 
 function App() {
@@ -32,8 +33,8 @@ function App() {
      {/*product screens */}
      <Route path="/branches/litein" component={Litein}/>
      
-     
-     
+     {/**Live servce */}
+     <Route path="/Live" component={Live}/>
      
     </div>
     <CustomFooter/>

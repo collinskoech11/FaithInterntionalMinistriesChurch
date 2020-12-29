@@ -1,28 +1,17 @@
 
 import React from 'react';
-import { Video } from 'react-video-stream';
+import ReactPlayer from "react-player";
 import './style.css';
-
-const url = 'https://youtu.be/_YhkTD02scM'
- 
-const options = {
-  requestHeader: 'Authorization',
-  requestToken: 'access_token'
-}
-
 
 
 function Live() {
     return (
-        <div>
-        <Video
-          className='video-class'
-          controls={true}
-          autoPlay={true}
-          options={options}
-          remoteUrl={url}
-        />
-      </div>
+        <div className="video">
+      <h3>Embed YouTube video - <a href="https://www.cluemediator.com">Clue Mediator</a></h3>
+      <ReactPlayer
+        url="https://www.youtube.com/watch?v=UVCP4bKy9Iw"
+      />
+    </div>
     )
 }
 
