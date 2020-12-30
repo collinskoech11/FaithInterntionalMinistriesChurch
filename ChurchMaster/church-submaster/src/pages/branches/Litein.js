@@ -4,6 +4,9 @@ import './style.css';
 function Litein() {
     return (
         <>
+        <div className="b-title">
+            <h2>Litein Branch</h2>
+        </div>
         <div className="b-head">
             <div className="profile-img">
                 <img src="https://source.unsplash.com/400x200/?Bishop" alt="Branch head profile"/>
@@ -21,19 +24,13 @@ function Litein() {
                 <h4>Church Name</h4>
             </div>
             <div className="data">
-                <h4>Pastors Contact</h4>
-            </div>
-            <div className="data">
                 <h4>Pastors Name</h4>
             </div>
             <div className="data">
+                <h4>Pastors Contact</h4>              
+            </div>
+            <div className="data">
                 <h4>Number of Members</h4>
-            </div>
-            <div className="data">
-                <h4>Plot /Building</h4>
-            </div>
-            <div className="data">
-                <h4>Project</h4>
             </div>    
         </div>
         <div className="sub-branch">
@@ -48,13 +45,7 @@ function Litein() {
             </div>
             <div className="data">
                 <p>  </p>
-            </div>
-            <div className="data">
-                <p>  </p>
-            </div>
-            <div className="data">
-                <p>  </p>
-            </div>    
+            </div>   
         </div>
         <div className="sub-branch">
             <div className="data">
@@ -69,12 +60,7 @@ function Litein() {
             <div className="data">
                 <p></p>
             </div>
-            <div className="data">
-                <p></p>
-            </div>
-            <div className="data">
-                <p></p>
-            </div>    
+           
         </div>
         <div className="sub-branch">
                 <div className="data">
@@ -89,12 +75,7 @@ function Litein() {
                 <div className="data">
                     <p></p>
                 </div>
-                <div className="data">
-                    <p></p>
-                </div>
-                <div className="data">
-                    <p></p>
-                </div> 
+                 
             </div>
             <div className="sub-branch">
             
@@ -110,12 +91,7 @@ function Litein() {
                 <div className="data">
                     <p></p>
                 </div>
-                <div className="data">
-                    <p></p>
-                </div>
-                <div className="data">
-                    <p></p>
-                </div>    
+                    
             </div>
             <div className="sub-branch">
                 <div className="data">
@@ -130,12 +106,7 @@ function Litein() {
                 <div className="data">
                     <p></p>
                 </div>
-                <div className="data">
-                    <p></p>
-                </div>
-                <div className="data">
-                    <p></p>
-                </div>    
+                    
             </div>
             <div className="sub-branch">
                 <div className="data">
@@ -150,13 +121,22 @@ function Litein() {
                 <div className="data">
                     <p></p>
                 </div>
+                   
+            </div>  
+            <div className="sub-branch">
                 <div className="data">
                     <p></p>
                 </div>
                 <div className="data">
                     <p></p>
-                </div>    
-            </div>      
+                </div>
+                <div className="data">
+                    <p></p>
+                </div>
+                <div className="data">
+                    <p></p>
+                </div>  
+            </div>    
         </>
     )
 }
