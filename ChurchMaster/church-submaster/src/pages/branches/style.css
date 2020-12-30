@@ -19,3 +19,23 @@
     padding: 10px;
     height: 100%;
 }
+.sub-branch-title{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+}
+.sub-branch{
+    width: 90%;
+    margin: 10px;
+    height: auto;
+    border: 2px solid rgb(0,0,255,0.4);
+    border-radius: 10px;
+    display: inline-block;
+}
+.data{
+    width: 15%;
+    height:auto;
+    text-align: center;
+    padding-top: 15px;
+    float: left;
+}
