@@ -6,7 +6,6 @@ import Navbar from './Navigators/Navbar';
 import {BrowserRouter as Router,Route} from 'react-router-dom';
 import Home from './pages/Home';
 import CustomFooter from './Navigators/CustomFooter';
-import Login from './pages/Login';
 import AboutPage from './pages/AboutPage';
 import ContactUs from './pages/ContactUs';
 import Location from './pages/Location';
@@ -26,6 +25,7 @@ import Olenguruone from './pages/branches/Olenguruone';
 import Transmara from './pages/branches/Transmara';
 import Tunioi from './pages/branches/Tunioi';
 import Live from './pages/Live';
+import JustFm from './pages/JustFm';
 import Bishop from './pages/SuperProfiles/Bishop'
 
 function App() {
@@ -63,7 +63,11 @@ function App() {
      
      {/**Live servce */}
      <Route path="/Live" component={Live}/>
-     
+
+     {/**Facebook */}
+     <Route path="/pages/JustFm" component={JustFm}/>
+
+
     </div>
     <CustomFooter/>
     </Router>
