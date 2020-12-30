@@ -1,12 +1,12 @@
-import React, { Component} from 'react';
-import { FacebookProvider, Page } from 'react-facebook';
- 
-export default class JustFm extends Component {
-  render() {
-    return (
-      <FacebookProvider appId="123456789">
-        <Page href="https://www.facebook.com" tabs="timeline" />
-      </FacebookProvider>    
-    );
-  }
+import React from 'react';
+import './style.css';
+
+function JustFm() {
+  return (
+    <div className="justCon">
+      <h1>Just f.m radio</h1> <h3>98.9 fm</h3>
+    </div>
+  )
 }
+
+export default JustFm

@@ -65,7 +65,7 @@ function App() {
      <Route path="/Live" component={Live}/>
 
      {/**Facebook */}
-     <Route path="/pages/JustFm" component={JustFm}/>
+     <Route path="/JustFm" component={JustFm}/>
 
 
     </div>

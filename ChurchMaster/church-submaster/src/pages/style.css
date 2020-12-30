@@ -2,3 +2,12 @@
     width:100%;
     height:auto;
 }
+.justCon{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+.justCon h1{
+    text-transform: uppercase;
+    font-weight: bold;
+}
