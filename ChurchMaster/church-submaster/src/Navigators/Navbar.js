@@ -5,6 +5,7 @@ MDBDropdown, MDBDropdownToggle, MDBDropdownMenu, MDBDropdownItem
 } from "mdbreact";
 import { BrowserRouter as Router } from 'react-router-dom';
 import {Nav,Navbar} from 'react-bootstrap';
+import './style.css';
 
 
 class NavBar extends Component {
@@ -43,7 +44,7 @@ render() {
                 <MDBDropdownToggle nav caret>
                   <span className="mr-2">Our Branches</span>
                 </MDBDropdownToggle>
-                <MDBDropdownMenu>
+                <MDBDropdownMenu className="dropDown">
                   <MDBDropdownItem href="/branches/Kericho">Kericho FMI</MDBDropdownItem>
                   <MDBDropdownItem href="/branches/AinamoiNorth">Ainamoi Nothern</MDBDropdownItem>
                   <MDBDropdownItem href="/branches/AinamoiSouth">Ainamoi Southern</MDBDropdownItem>

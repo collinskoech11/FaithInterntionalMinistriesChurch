@@ -13,3 +13,6 @@
     border-radius:20px;
     padding:10px;
 }
+.dropDown{
+    z-index: 10;
+}
