@@ -34,7 +34,7 @@ function Kericho() {
                 <p></p>
             </div>
             <div className="data">
-                <p></p>
+                <p>data</p>
             </div>
             <div className="data">
                 <p></p>
