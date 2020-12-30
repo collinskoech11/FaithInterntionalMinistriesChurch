@@ -125,7 +125,91 @@ function Litein() {
             </div>  
             <div className="sub-branch">
                 <div className="data">
+                    <p>Kusumek</p>
+                </div>
+                <div className="data">
+                    <p>Pstr Paul Rotich</p>
+                </div>
+                <div className="data">
+                    <p>0713763071</p>
+                </div>
+                <div className="data">
                     <p></p>
+                </div>  
+            </div>  
+            <div className="sub-branch">
+                <div className="data">
+                    <p>Getarwet</p>
+                </div>
+                <div className="data">
+                    <p> Pstr S.Sigei</p>
+                </div>
+                <div className="data">
+                    <p>0713870455</p>
+                </div>
+                <div className="data">
+                    <p></p>
+                </div>  
+            </div>
+            <div className="sub-branch">
+                <div className="data">
+                    <p>Ngororga</p>
+                </div>
+                <div className="data">
+                    <p>Pstr L Koech</p>
+                </div>
+                <div className="data">
+                    <p>0741413984</p>
+                </div>
+                <div className="data">
+                    <p></p>
+                </div>  
+            </div> 
+            <div className="sub-branch">
+                <div className="data">
+                    <p>Cheboin</p>
+                </div>
+                <div className="data">
+                    <p>Pstr R Langat</p>
+                </div>
+                <div className="data">
+                    <p>0711611764</p>
+                </div>
+                <div className="data">
+                    <p></p>
+                </div>  
+            </div> 
+            <div className="sub-branch">
+                <div className="data">
+                    <p>KIptome</p>
+                </div>
+                <div className="data">
+                    <p></p>
+                </div>
+                <div className="data">
+                    <p>0719309697</p>
+                </div>
+                <div className="data">
+                    <p></p>
+                </div>  
+            </div>
+            <div className="sub-branch">
+                <div className="data">
+                    <p>Kipwastuiyo</p>
+                </div>
+                <div className="data">
+                    <p></p>
+                </div>
+                <div className="data">
+                    <p>0715240399</p>
+                </div>
+                <div className="data">
+                    <p></p>
+                </div>  
+            </div>
+            <div className="sub-branch">
+                <div className="data">
+                    <p>Kaloit</p>
                 </div>
                 <div className="data">
                     <p></p>
@@ -136,7 +220,63 @@ function Litein() {
                 <div className="data">
                     <p></p>
                 </div>  
-            </div>    
+            </div>
+            <div className="sub-branch">
+                <div className="data">
+                    <p>Kapsigira</p>
+                </div>
+                <div className="data">
+                    <p>Pstr G Koech</p>
+                </div>
+                <div className="data">
+                    <p>0723688478</p>
+                </div>
+                <div className="data">
+                    <p></p>
+                </div>  
+            </div>
+            <div className="sub-branch">
+                <div className="data">
+                    <p>Kampala</p>
+                </div>
+                <div className="data">
+                    <p>Pstr J sang</p>
+                </div>
+                <div className="data">
+                    <p>0715639411</p>
+                </div>
+                <div className="data">
+                    <p></p>
+                </div>  
+            </div>
+            <div className="sub-branch">
+                <div className="data">
+                    <p>Siongi</p>
+                </div>
+                <div className="data">
+                    <p>Pstr Richard Bett</p>
+                </div>
+                <div className="data">
+                    <p>0723366059</p>
+                </div>
+                <div className="data">
+                    <p></p>
+                </div>  
+            </div>
+            <div className="sub-branch">
+                <div className="data">
+                    <p>Set</p>
+                </div>
+                <div className="data">
+                    <p></p>
+                </div>
+                <div className="data">
+                    <p>0727445595</p>
+                </div>
+                <div className="data">
+                    <p></p>
+                </div>  
+            </div>
         </>
     )
 }

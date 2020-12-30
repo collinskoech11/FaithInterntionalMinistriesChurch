@@ -38,6 +38,11 @@
     height: 50px;
     text-align: center;
 }
+.sub-branch-title h2{
+    font-weight:bold;
+    text-transform: uppercase;
+    color: blue;
+}
 .sub-branch{
     width: 90%;
     margin: 10px;
