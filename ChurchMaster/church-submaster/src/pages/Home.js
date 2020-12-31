@@ -5,7 +5,7 @@ import Chairman from './SuperProfiles/Chairman';
 import Upcoming from '../Navigators/Upcoming';
 import './style.css';
 import Twitter from '../Navigators/Twitter';
-import CountUp from 'react-countup';
+
 
 
 
@@ -22,14 +22,14 @@ export default function Home() {
                         </div>
                         <div className="block">
                             <h4>
-                            <CountUp start={0} end={1000} />
+                            1000
                             </h4>
                         </div>
                         <div className="block">
                             <h3>Total Members :</h3>
                         </div>
                         <div className="block">
-                            <h4><CountUp start={0} end={100000} /></h4>
+                            <h4>100000</h4>
                         </div>
                     </div>
                 </div>
