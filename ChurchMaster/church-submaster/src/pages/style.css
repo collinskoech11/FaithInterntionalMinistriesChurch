@@ -49,5 +49,5 @@
 .block h3{
     font-weight: bold;
     color: blue;
-    text-transform: uppercase;
+    text-transform: capitalize;
 }
