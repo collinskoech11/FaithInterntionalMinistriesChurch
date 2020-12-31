@@ -18,7 +18,7 @@ export default function Home() {
                 <div className="f-block">
                     <div className="mpesa">
                         <div className="block">
-                            <h3>Number of Satelite Branches :</h3>
+                            <h3>No of Satelite Branches :</h3>
                         </div>
                         <div className="block">
                             <h4>
