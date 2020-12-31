@@ -18,7 +18,7 @@ const CarouselPage = () => {
           <MDBView>
             <img
               className="d-block w-100"
-              src="https://source.unsplash.com/400x200/?world"
+              src="https://source.unsplash.com/400x300/?world"
               alt="First slide"
             />
           <MDBMask overlay="black-light" />
@@ -32,7 +32,7 @@ const CarouselPage = () => {
           <MDBView>
             <img
               className="d-block w-100"
-              src="https://source.unsplash.com/400x200/?God"
+              src="https://source.unsplash.com/400x300/?God"
               alt="First slide"
             />
           <MDBMask overlay="black-light" />
@@ -46,7 +46,7 @@ const CarouselPage = () => {
           <MDBView>
             <img
               className="d-block w-100"
-              src="https://source.unsplash.com/400x200/?Jesus"
+              src="https://source.unsplash.com/400x300/?Jesus"
               alt="Second slide"
             />
           <MDBMask overlay="black-strong" />
@@ -60,7 +60,7 @@ const CarouselPage = () => {
           <MDBView>
             <img
               className="d-block w-100"
-              src="https://source.unsplash.com/400x200/?Bible"
+              src="https://source.unsplash.com/400x300/?Bible"
               alt="Third slide"
             />
           <MDBMask overlay="black-slight" />
@@ -74,7 +74,7 @@ const CarouselPage = () => {
           <MDBView>
             <img
               className="d-block w-100"
-              src="https://source.unsplash.com/400x200/?Good news bible"
+              src="https://source.unsplash.com/400x300/?Good news bible"
               alt="First slide"
             />
           <MDBMask overlay="black-light" />
@@ -88,7 +88,7 @@ const CarouselPage = () => {
           <MDBView>
             <img
               className="d-block w-100"
-              src="https://source.unsplash.com/400x200/?Family"
+              src="https://source.unsplash.com/400x300/?Family"
               alt="First slide"
             />
           <MDBMask overlay="black-light" />
@@ -102,7 +102,7 @@ const CarouselPage = () => {
           <MDBView>
             <img
               className="d-block w-100"
-              src="https://source.unsplash.com/400x200/?Disciples"
+              src="https://source.unsplash.com/400x300/?Disciples"
               alt="First slide"
             />
           <MDBMask overlay="black-light" />
