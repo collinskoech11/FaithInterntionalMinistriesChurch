@@ -21,15 +21,15 @@ export default function Home() {
                             <h3>Number of Satelite Branches</h3>
                         </div>
                         <div className="block">
-                            <h3>
-                            <CountUp end={100} />
-                            </h3>
+                            <h4>
+                            <CountUp start={0} end={100} />
+                            </h4>
                         </div>
                         <div className="block">
                             <h3>Total Members</h3>
                         </div>
                         <div className="block">
-                            <h3><CountUp end={100} /></h3>
+                            <h4><CountUp start={0} end={100} /></h4>
                         </div>
                     </div>
                 </div>
