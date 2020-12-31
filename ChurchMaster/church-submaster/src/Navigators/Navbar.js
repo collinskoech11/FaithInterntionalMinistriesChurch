@@ -46,7 +46,7 @@ render() {
                 </MDBDropdownToggle>
                 <MDBDropdownMenu className="dropDown">
                   <MDBDropdownItem href="/branches/Kericho">Kericho FMI</MDBDropdownItem>
-                  <MDBDropdownItem href="/branches/AinamoiNorth">Ainamoi Nothern</MDBDropdownItem>
+                  <MDBDropdownItem href="/branches/AinamoiNoth">Ainamoi Nothern</MDBDropdownItem>
                   <MDBDropdownItem href="/branches/AinamoiSouth">Ainamoi Southern</MDBDropdownItem>
                   <MDBDropdownItem href="/branches/Kipkelion">Kipkelion Region</MDBDropdownItem>
                   <MDBDropdownItem href="/branches/Londiani">Londiani Region</MDBDropdownItem>
@@ -57,7 +57,7 @@ render() {
                   <MDBDropdownItem href="/branches/Changoi">Changoi Region</MDBDropdownItem>
                   <MDBDropdownItem href="/branches/Litein">Litein Region</MDBDropdownItem>
                   <MDBDropdownItem href="/branches/Makimeny">Makimeny</MDBDropdownItem>
-                  <MDBDropdownItem href="/branches/Tunioi">Tunioi</MDBDropdownItem>
+                  <MDBDropdownItem href="/branches/Tunioi">Tumoi</MDBDropdownItem>
                   <MDBDropdownItem href="/branches/Transmara">Transmara</MDBDropdownItem>
                   <MDBDropdownItem href="/branches/Nandi">Nandi</MDBDropdownItem>
                 </MDBDropdownMenu>

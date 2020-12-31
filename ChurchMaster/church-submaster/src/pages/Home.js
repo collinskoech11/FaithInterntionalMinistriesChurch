@@ -12,8 +12,13 @@ import Twitter from '../Navigators/Twitter'
 export default function Home() {
     return (
         <div>
-            <div className="container">
-                <CarouselPage/>
+            <div className="container first">
+                <div className="f-block"><CarouselPage/></div>
+                <div className="f-block">
+                    <div className="mpesa">
+                        
+                    </div>
+                </div>
             </div>
             <div className="container">
                 <Bishop/>
