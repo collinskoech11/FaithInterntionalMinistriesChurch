@@ -18,7 +18,7 @@ export default function Home() {
                 <div className="f-block">
                     <div className="mpesa">
                         <div className="block">
-                            <h3>Number of Satelite Branches</h3>
+                            <h3>Number of Satelite Branches :</h3>
                         </div>
                         <div className="block">
                             <h4>
@@ -26,7 +26,7 @@ export default function Home() {
                             </h4>
                         </div>
                         <div className="block">
-                            <h3>Total Members</h3>
+                            <h3>Total Members :</h3>
                         </div>
                         <div className="block">
                             <h4><CountUp start={0} end={100} /></h4>
