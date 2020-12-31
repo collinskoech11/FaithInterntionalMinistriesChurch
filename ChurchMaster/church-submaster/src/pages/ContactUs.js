@@ -81,7 +81,7 @@ export class ContactUs extends Component {
               <MDBBtn tag="a" floating color="blue" className="accent-1">
                 <MDBIcon icon="map-marker-alt" />
               </MDBBtn>
-              <p>Nairobi</p>
+              <p>Kericho</p>
               <p className="mb-md-0">Kenya</p>
             </MDBCol>
             <MDBCol md="4">
@@ -89,14 +89,14 @@ export class ContactUs extends Component {
                 <MDBIcon icon="phone" />
               </MDBBtn>
               <p>0101170937</p>
-              <p className="mb-md-0">Mon - Fri, 8:00-22:00</p>
+              <p className="mb-md-0">Mon - Fri, 8:00-17:00</p>
             </MDBCol>
             <MDBCol md="4">
               <MDBBtn tag="a" floating color="blue" className="accent-1">
                 <MDBIcon icon="envelope" />
               </MDBBtn>
-              <p>info@gikosh.com</p>
-              <p className="mb-md-0">sale@gikosh.com</p>
+              <p>info@FMIC.com</p>
+              <p className="mb-md-0">Info@FIMC.com</p>
             </MDBCol>
           </MDBRow>
         </MDBCol>
