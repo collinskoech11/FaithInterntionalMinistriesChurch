@@ -7,21 +7,25 @@ import './style.css';
 function Live() {
     return (
       <>
-        <div className="video">
-          <h3>Latest Church Service</h3>
-          <ReactPlayer  className="video-con"
-            url="https://www.youtube.com/watch?v=CGXh0uBEtBc"
-          />
-        </div>
-        <div className="video">
-          <h3>More Live Church Services</h3>
-          <ReactPlayer className="video-con" url="https://www.youtube.com/watch?v=hSj0e4rxqtA"/>
-        </div>
-        <div className="video">
-          <ReactPlayer className="video-con" url="https://www.youtube.com/watch?v=k8bwVZI3uGE"/>
-        </div>
-        <div className="video">
-          <ReactPlayer className="video-con" url="https://www.youtube.com/watch?v=Qt7JuWOVTWw"/>
+      <div className="main">
+          <div className="video">
+            <h3>Latest Church Service</h3>
+            <ReactPlayer  className="video-con"
+              url="https://www.youtube.com/watch?v=CGXh0uBEtBc"
+            />
+          </div>
+          <div className="video">
+            <h3>More Live Church Services</h3>
+            <ReactPlayer className="video-con" url="https://www.youtube.com/watch?v=hSj0e4rxqtA"/>
+          </div>
+          </div>
+          <div className="main">
+            <div className="video">
+              <ReactPlayer className="video-con" url="https://www.youtube.com/watch?v=k8bwVZI3uGE"/>
+            </div>
+            <div className="video">
+              <ReactPlayer className="video-con" url="https://www.youtube.com/watch?v=Qt7JuWOVTWw"/>
+            </div>
         </div>
         </>
     )
