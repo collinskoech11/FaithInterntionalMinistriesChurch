@@ -5,6 +5,7 @@ import Chairman from './SuperProfiles/Chairman';
 import Upcoming from '../Navigators/Upcoming';
 import './style.css';
 import Twitter from '../Navigators/Twitter';
+import Countup from 'react-countup';
 
 
 
@@ -22,7 +23,13 @@ export default function Home() {
                         </div>
                         <div className="block">
                             <h4>
-                            1000
+                            <CountUp start={0} end={100} delay={0}>
+                            {({ countUpRef }) => (
+                                <div>
+                                <span ref={countUpRef} />
+                                </div>
+                            )}
+                            </CountUp>
                             </h4>
                         </div>
                         <div className="block">
