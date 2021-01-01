@@ -17,6 +17,9 @@
     overflow: hidden;
     padding: 5%;
 }
+.video-con{
+    width: 90%;
+}
 .first{
     display:flex;
     height: auto;
