@@ -5,7 +5,7 @@ import Chairman from './SuperProfiles/Chairman';
 import Upcoming from '../Navigators/Upcoming';
 import './style.css';
 import Twitter from '../Navigators/Twitter';
-import Countup from 'react-countup';
+import CountUp from 'react-countup';
 
 
 

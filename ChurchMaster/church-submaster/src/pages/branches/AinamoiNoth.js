@@ -9,6 +9,7 @@ function AinamoiNoth() {
                 <img src="https://source.unsplash.com/400x200/?Bishop" alt="Branch head profile"/>
             </div>
             <div className="profile-text">
+               <h1> William Samoei</h1>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea architecto consequatur exercitationem aspernatur quo ad voluptates reprehenderit animi doloremque debitis sint saepe quaerat odio nisi, ipsa at, neque veritatis modi.</p>
             </div>
         </div>
