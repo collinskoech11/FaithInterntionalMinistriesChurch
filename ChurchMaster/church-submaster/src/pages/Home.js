@@ -64,6 +64,20 @@ export default function Home() {
                 <Chairman/>
             </div>
             <div className="container">
+                <div className="voice">
+                    <h3>Join us live</h3>
+                </div>
+                <div className="voice">
+                    <h3>Offerings &amp; Contributions</h3>
+                </div>
+                <div className="voice">
+
+                </div>
+                <div className="voice">
+
+                </div>
+            </div>
+            <div className="container">
                 <Upcoming/>
             </div>
         
