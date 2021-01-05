@@ -4,6 +4,9 @@ import './style.css'
 function Nandi() {
     return (
         <>
+        <div className="b-title">
+            <h2>Nandi Church</h2>
+        </div>
         <div className="b-head">
             <div className="profile-img">
                 <img src="https://source.unsplash.com/400x200/?Bishop" alt="Branch head profile"/>

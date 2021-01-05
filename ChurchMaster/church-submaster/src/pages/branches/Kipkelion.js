@@ -5,6 +5,9 @@ import './style.css';
 function Kipkelion() {
     return (
         <>
+        <div className="b-title">
+            <h2>Kipkelion  Church</h2>
+        </div>
         <div className="b-head">
             <div className="profile-img">
                 <img src="https://source.unsplash.com/400x200/?Bishop" alt="Branch head profile"/>
