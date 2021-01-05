@@ -10,6 +10,7 @@
     width: 50%;
     height: 100%;
     float: left;
+    padding: 10px;
 }
 .containerBlue .profile-desc p{
     font-size: 25px;
