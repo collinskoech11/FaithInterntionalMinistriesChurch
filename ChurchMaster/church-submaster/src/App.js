@@ -22,7 +22,7 @@ import Marishoni from './pages/branches/Marishoni';
 import Nandi from './pages/branches/Nandi';
 import Olenguruone from './pages/branches/Olenguruone';
 import Transmara from './pages/branches/Transmara';
-import Tunioi from './pages/branches/Tunioi';
+import Bomet from './pages/branches/Bomet';
 import Live from './pages/Live';
 import JustFm from './pages/JustFm';
 import Bishop from './pages/SuperProfiles/Bishop'
@@ -57,7 +57,7 @@ function App() {
      <Route path="/branches/Nandi" component={Nandi}/>
      <Route path="/branches/Olenguruone" component={Olenguruone}/>
      <Route path="/branches/Transmara" component={Transmara}/>
-     <Route path="/branches/Tunioi" component={Tunioi}/>
+     <Route path="/branches/Bomet" component={Bomet}/>
      
      {/**Live servce */}
      <Route path="/Live" component={Live}/>

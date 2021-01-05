@@ -1,9 +1,12 @@
 import React from 'react';
 import './style.css';
 
-function Tunioi() {
+function Bomet() {
     return (
         <>
+        <div className="b-title">
+            <h2>Bomet Church</h2>
+        </div>
         <div className="b-head">
             <div className="profile-img">
                 <img src="https://source.unsplash.com/400x200/?Bishop" alt="Branch head profile"/>
@@ -171,7 +174,7 @@ function Tunioi() {
         </div>
         <div className="sub-branch">
             <div className="data">
-                <p>Bomet</p>
+                <p>Josea KIrui</p>
             </div>
             <div className="data">
                 <p></p>
@@ -187,4 +190,4 @@ function Tunioi() {
     )
 }
 
-export default Tunioi
+export default Bomet

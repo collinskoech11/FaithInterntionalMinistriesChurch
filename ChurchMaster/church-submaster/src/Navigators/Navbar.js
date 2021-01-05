@@ -57,7 +57,7 @@ render() {
                   <MDBDropdownItem href="/branches/Changoi">Changoi Region</MDBDropdownItem>
                   <MDBDropdownItem href="/branches/Litein">Litein Region</MDBDropdownItem>
                   <MDBDropdownItem href="/branches/Makimeny">Makimeny</MDBDropdownItem>
-                  <MDBDropdownItem href="/branches/Tunioi">Bomet</MDBDropdownItem>
+                  <MDBDropdownItem href="/branches/Bomet">Bomet</MDBDropdownItem>
                   <MDBDropdownItem href="/branches/Transmara">Transmara</MDBDropdownItem>
                   <MDBDropdownItem href="/branches/Nandi">Nandi</MDBDropdownItem>
                 </MDBDropdownMenu>
