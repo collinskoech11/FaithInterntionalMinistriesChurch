@@ -35,7 +35,7 @@ function AinamoiNoth() {
                 <p>Chebululu</p>
             </div>
             <div className="data">
-                <p>Simiyyu</p>
+                <p>Simiyu</p>
             </div>
             <div className="data">
                 <p>0720895306</p>
