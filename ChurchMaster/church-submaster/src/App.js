@@ -10,7 +10,6 @@ import AboutPage from './pages/AboutPage';
 import ContactUs from './pages/ContactUs';
 import Location from './pages/Location';
 import AinamoiNoth from './pages/branches/AinamoiNoth';
-import AinamoiSouth from './pages/branches/AinamoiSouth';
 import Changoi from './pages/branches/Changoi';
 import Kericho from './pages/branches/Kericho';
 import Kipkelion from './pages/branches/Kipkelion';
@@ -46,7 +45,6 @@ function App() {
 
      {/*Branches screens */}
      <Route path="/branches/AinamoiNoth" component={AinamoiNoth}/>
-     <Route path="/branches/AinamoiSouth" component={AinamoiSouth}/>
      <Route path="/branches/Changoi" component={Changoi}/>
      <Route path="/branches/Kericho" component={Kericho}/>
      <Route path="/branches/Kipkelion" component={Kipkelion}/>
