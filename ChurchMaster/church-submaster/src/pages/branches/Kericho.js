@@ -12,7 +12,8 @@ function Kericho() {
                 <img src="https://source.unsplash.com/400x200/?Bishop" alt="Branch head profile"/>
             </div>
             <div className="profile-text">
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea architecto consequatur exercitationem aspernatur quo ad voluptates reprehenderit animi doloremque debitis sint saepe quaerat odio nisi, ipsa at, neque veritatis modi.</p>
+            <h2>Pastor In Charge</h2>
+               <h1> Pstr Mike Sawe</h1>
             </div>
         </div>
         <div className="sub-branch-title">
