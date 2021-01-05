@@ -1,7 +1,6 @@
 import React from 'react';
 import './style.css';
 import just from './img/just.jpg';
-import Sparkle from 'react-sparkle';
 
 function JustFm() {
   return (
@@ -11,7 +10,7 @@ function JustFm() {
       <img src={just} alt="just fm header image"/>
     </div>
     <div className="title">
-      <h1><Sparkle>Live Radio Streaming Coming soon</Sparkle> </h1>
+      <h1>Live Radio Streaming Coming soon </h1>
     </div>
     </>
   )
