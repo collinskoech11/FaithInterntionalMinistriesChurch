@@ -6,6 +6,7 @@ MDBDropdown, MDBDropdownToggle, MDBDropdownMenu, MDBDropdownItem
 import { BrowserRouter as Router } from 'react-router-dom';
 import {Nav,Navbar} from 'react-bootstrap';
 import './style.css';
+import Sparkle from 'react-sparkle';
 
 
 class NavBar extends Component {
@@ -21,6 +22,7 @@ render() {
   return (
     <Router>
       <div className="nav-con">
+        <Sparkle>
       <MDBNavbar color="indigo" dark expand="md"  margin-bottom="50px">
         <Navbar.Brand href="/">
           <strong className="white-text">Faith Ministries International</strong>
@@ -98,6 +100,7 @@ render() {
           </MDBNavbarNav>
         </MDBCollapse>
       </MDBNavbar>
+      </Sparkle>
       </div>
     </Router>
     );
