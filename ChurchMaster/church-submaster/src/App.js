@@ -25,6 +25,7 @@ import Transmara from './pages/branches/Transmara';
 import Bomet from './pages/branches/Bomet';
 import Live from './pages/Live';
 import JustFm from './pages/JustFm';
+import ContactDev from './pages/ContactDev';
 import Bishop from './pages/SuperProfiles/Bishop'
 
 function App() {
@@ -36,6 +37,7 @@ function App() {
      <Route path="/AboutPage" component={AboutPage}/>
      <Route path="/ContactUs" component={ContactUs}/>
      <Route path="/Location" component={Location}/>
+     <Route path="/ContactDev" component={ContactDev}/>
      
      
      
