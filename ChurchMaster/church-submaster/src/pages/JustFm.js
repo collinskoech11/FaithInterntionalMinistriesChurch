@@ -1,6 +1,7 @@
 import React from 'react';
 import './style.css';
 import just from './img/just.jpg';
+import Twitter from '../Navigators/Twitter';
 
 function JustFm() {
   return (
@@ -11,6 +12,9 @@ function JustFm() {
     </div>
     <div className="title">
       <h1>Live Radio Streaming Coming soon </h1>
+    </div>
+    <div className="container">
+      <Twitter/>
     </div>
     </>
   )

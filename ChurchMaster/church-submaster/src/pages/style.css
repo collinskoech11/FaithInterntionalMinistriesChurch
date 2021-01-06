@@ -123,3 +123,9 @@
     float: left;
     padding: 20px;
 }
+.title h1{
+    font-weight: bolder;
+    text-decoration: underline;
+    text-align: center;
+    
+}
