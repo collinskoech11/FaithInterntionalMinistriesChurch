@@ -48,8 +48,7 @@ render() {
                 </MDBDropdownToggle>
                 <MDBDropdownMenu className="dropDown">
                   <MDBDropdownItem href="/branches/Kericho">Kericho FMI</MDBDropdownItem>
-                  <MDBDropdownItem href="/branches/AinamoiNoth">Ainamoi Nothern</MDBDropdownItem>
-                 
+                  <MDBDropdownItem href="/branches/AinamoiNoth">Ainamoi Nothern</MDBDropdownItem>      
                   <MDBDropdownItem href="/branches/Kipkelion">Kipkelion Region</MDBDropdownItem>
                   <MDBDropdownItem href="/branches/Londiani">Londiani Region</MDBDropdownItem>
                   <MDBDropdownItem href="/branches/Olenguruone">Nakuru Region</MDBDropdownItem>

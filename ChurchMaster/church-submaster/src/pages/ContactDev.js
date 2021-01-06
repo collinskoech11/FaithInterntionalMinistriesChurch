@@ -1,9 +1,25 @@
-import React from 'react'
+import React from 'react';
+import './style.css'
 
 function ContactDev() {
     return (
        <>
-       <h1>0728000107</h1>
+        <div className="dev">
+            <div className="dev-prof">
+                <img src="" alt=""/>
+            </div>
+            <div className="dev-desc">
+                <p></p>
+            </div>
+        </div>
+        <div className="dev">
+            <div className="dev-prof">
+                <img src="" alt=""/>
+            </div>
+            <div className="dev-desc">
+                <p></p>
+            </div>
+        </div>
        </>
     )
 }

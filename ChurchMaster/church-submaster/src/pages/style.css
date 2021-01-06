@@ -88,3 +88,22 @@
     align-items: center;
     justify-content: center;
 }
+.dev{
+    display:inline-block;
+    width: 100%;
+    height: auto;
+}
+.dev .dev-prof{
+    width: 200px;
+    height: 200px;
+    float: left;
+}
+.dev .dev-prof img{
+    width: 100%;
+    height: 100%;
+}
+.dev .dev-desc{
+    width: auto;
+    float: left;
+    padding: 20px;
+}
