@@ -49,13 +49,13 @@ function Kericho() {
         </div>
         <div className="sub-branch">
                 <div className="data">
-                    <p></p>
+                    <p>Kericho FMI</p>
                 </div>
                 <div className="data">
                     <p>Charles Ngeno</p>
                 </div>
                 <div className="data">
-                    <p></p>
+                    <p>0722341697</p>
                 </div>
                 <div className="data">
                     <p></p>
@@ -63,7 +63,7 @@ function Kericho() {
             </div>
             <div className="sub-branch">
                 <div className="data">
-                    <p></p>
+                    <p>Kericho Fmi</p>
                 </div>
                 <div className="data">
                     <p>Lorna</p>
@@ -77,7 +77,7 @@ function Kericho() {
             </div>
             <div className="sub-branch">
                 <div className="data">
-                    <p></p>
+                    <p>Kericho FMI</p>
                 </div>
                 <div className="data">
                     <p>Lena Langat</p>
