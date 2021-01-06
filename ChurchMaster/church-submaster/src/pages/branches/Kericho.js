@@ -89,6 +89,14 @@ function Kericho() {
                     <p></p>
                 </div>  
             </div>
+            <div className="sub-branch">
+                <div className="data">
+                    <h2>Total</h2>
+                </div>
+                <div className="data">
+                    <h2>1</h2>
+                </div>
+            </div>
     </>
     )
 }
