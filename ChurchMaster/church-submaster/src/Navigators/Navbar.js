@@ -82,7 +82,7 @@ render() {
               <MDBDropdownMenu>
                 <MDBDropdownItem href="/ContactUs">Contact Us</MDBDropdownItem>
                 <MDBDropdownItem href="/Location">Find Us</MDBDropdownItem>       
-                <MDBDropdownItem href="/ContactDev">Contact Developer</MDBDropdownItem>           
+                <MDBDropdownItem href="/ContactDev">Contact Developers</MDBDropdownItem>           
               </MDBDropdownMenu>
             </MDBDropdown>
           </MDBNavItem>
