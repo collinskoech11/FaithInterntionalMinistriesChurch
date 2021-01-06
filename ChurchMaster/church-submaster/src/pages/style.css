@@ -81,6 +81,12 @@
     align-items: center;
     justify-content: center;
 }
+@media screen and (max-width:1000px){
+    .voice{
+        width: 43%;
+        height: 250px;
+    }
+}
 .voice h1{
     width: 250px;
     height: auto;
