@@ -28,6 +28,11 @@ function ContactDev() {
                 <h5>+254798777814</h5>
             </div>
         </div>
+        <div className="dev">
+            <h2>Developer Support</h2>
+            <h5>Paybill:329329</h5>
+            <h5>AccNo:0100482892800</h5>
+        </div>
        </>
     )
 }
