@@ -23,7 +23,7 @@ function ContactDev() {
             <div className="dev-desc">
                 <h2>Diana Nyamai</h2>
                 <h3>Co-Founder at DEVCOKENYA</h3>
-                <h5>diananyamaidn@gmail.com</h5>
+                <h5>dnyamai.dn@gmail.com</h5>
                 <h5>+254798777814</h5>
             </div>
         </div>
