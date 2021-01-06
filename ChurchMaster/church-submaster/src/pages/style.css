@@ -71,15 +71,31 @@
     text-align: center;
 }
 .voice{
-    width: 23%;
+    width: 47%;
     margin: 1%;
-    border: 1px solid black;
     border-radius: 10px;
     padding:5px;
     float: left;
     text-align: center;
     align-items: center;
-    justify-content: center;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,77,121,1) 35%, rgba(0,212,255,1) 100%);   
+    font-weight: bolder;
+    color: #fff; 
+}
+.voice p{
+    opacity: 0;
+    transition: 2s smooth;
+    display: none;
+}
+.voice h3{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.voice:hover p{
+    opacity: 1;
+    transition: 2s smooth;
+    display: block;
 }
 @media screen and (max-width:1000px){
     .voice{
