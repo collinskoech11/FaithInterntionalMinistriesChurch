@@ -23,7 +23,7 @@ export default function Home() {
                         </div>
                         <div className="block">
                             <h4>
-                            <CountUp start={0} end={100} delay={0}>
+                            <CountUp start={0} end={151} delay={0} duration={5}>
                             {({ countUpRef }) => (
                                 <div>
                                 <span ref={countUpRef} />
@@ -36,7 +36,7 @@ export default function Home() {
                             <h3>Total Members :</h3>
                         </div>
                         <div className="block">
-                            <h4><CountUp start={0} end={100000} delay={0}>
+                            <h4><CountUp start={0} end={100000} delay={0} duration={5} >
                             {({ countUpRef }) => (
                                 <div>
                                 <span ref={countUpRef} />
