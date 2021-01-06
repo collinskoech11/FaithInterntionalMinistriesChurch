@@ -92,6 +92,16 @@
     display:inline-block;
     width: 100%;
     height: auto;
+    padding-left: 20%;
+    padding-right: 20%;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+@media screen and (max-width:1000px){
+    .dev{
+        padding-left: 30px;
+        padding-right: 0;
+    }
 }
 .dev .dev-prof{
     width: 200px;
@@ -103,7 +113,7 @@
     height: 100%;
 }
 .dev .dev-desc{
-    width: auto;
+    width: 60%;
     float: left;
     padding: 20px;
 }
