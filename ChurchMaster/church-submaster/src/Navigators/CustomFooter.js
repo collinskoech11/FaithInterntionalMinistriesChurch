@@ -47,16 +47,16 @@ const CustomFooter = () => {
             </h6>
             <hr className="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style={{ width: "60px" }} />
             <p>
-              <a href="/MensWear">Bible Study</a>
+              <a href="/">Bible Study</a>
             </p>
             <p>
-              <a href="/WomensWear">Youth Congress</a>
+              <a href="/">Youth Congress</a>
             </p>
             <p>
-              <a href="/Watches">Womens Confrens</a>
+              <a href="/">Womens Confrens</a>
             </p>
             <p>
-              <a href="/Shoes">Prayer Crussades</a>
+              <a href="/">Prayer Crussades</a>
             </p>
           </MDBCol>
           <MDBCol md="3" lg="2" xl="2" className="mb-4">
@@ -68,7 +68,7 @@ const CustomFooter = () => {
               <a href="/ContactDev">Our Developers</a>
             </p>
             <p>
-              <a href="#!">Become an Member</a>
+              <a href="/">Become an Member</a>
             </p>
             <p>
               <a href="/">Our Mission</a>
