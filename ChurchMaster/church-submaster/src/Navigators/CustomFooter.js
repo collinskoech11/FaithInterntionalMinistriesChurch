@@ -71,10 +71,10 @@ const CustomFooter = () => {
               <a href="#!">Become an Member</a>
             </p>
             <p>
-              <a href="#!">Our Mission</a>
+              <a href="/">Our Mission</a>
             </p>
             <p>
-              <a href="#!">Help</a>
+              <a href="/ContactUs">Help</a>
             </p>
           </MDBCol>
           <MDBCol md="4" lg="3" xl="3" className="mb-4">
