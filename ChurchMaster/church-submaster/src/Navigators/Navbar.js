@@ -36,11 +36,11 @@ render() {
         <MDBCollapse id="navbarCollapse3" isOpen={this.state.isOpen} navbar>
           <MDBNavbarNav left>
             <MDBNavItem active to="/">
-            <Nav.Link href="/"><img src={HomeIcon} className="icon" alt=""/>Home</Nav.Link>
+            <Nav.Link href="/"><img src={HomeIcon} className="icon" alt=""/> Home</Nav.Link>
             </MDBNavItem>
 
             <MDBNavItem to="/Live">
-            <Nav.Link href="/Live"><img src={Youtube} className="icon"/>Live Service</Nav.Link>
+            <Nav.Link href="/Live"><img src={Youtube} className="icon"/> Live Service</Nav.Link>
             </MDBNavItem>
            
             
@@ -49,7 +49,7 @@ render() {
             <MDBNavItem>
               <MDBDropdown>
                 <MDBDropdownToggle nav caret>
-                  <span className="mr-2"><img src={Branch} className="icon" />Our Branches</span>
+                  <span className="mr-2"><img src={Branch} className="icon" /> Our Branches</span>
                 </MDBDropdownToggle>
                 <MDBDropdownMenu className="dropDown">
                   <MDBDropdownItem href="/branches/Kericho">Kericho FMI</MDBDropdownItem>
@@ -71,18 +71,18 @@ render() {
             </MDBNavItem>
 
             <MDBNavItem href="/AboutPage">
-            <Nav.Link href="/JustFm"><img src={justIcon} className="icon" />Just fm</Nav.Link>
+            <Nav.Link href="/JustFm"><img src={justIcon} className="icon" /> Just fm</Nav.Link>
             </MDBNavItem>
 
             <MDBNavItem href="/AboutPage">
-          <Nav.Link className="black-text" href="/AboutPage"><img src={AboutIcon} className="icon"/>About Us </Nav.Link>
+          <Nav.Link  href="/AboutPage"><img src={AboutIcon} className="icon"/> About Us </Nav.Link>
             </MDBNavItem>
 
 
             <MDBNavItem>
             <MDBDropdown>
               <MDBDropdownToggle nav caret>
-                <span className="mr-2 black-text">Help</span>
+                <span className="mr-2 ">Help</span>
               </MDBDropdownToggle>
               <MDBDropdownMenu>
                 <MDBDropdownItem href="/ContactUs">Contact Us</MDBDropdownItem>
