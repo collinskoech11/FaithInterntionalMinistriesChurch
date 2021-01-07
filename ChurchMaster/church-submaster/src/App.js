@@ -26,7 +26,7 @@ import Bomet from './pages/branches/Bomet';
 import Live from './pages/Live';
 import JustFm from './pages/JustFm';
 import ContactDev from './pages/ContactDev';
-import Bishop from './pages/SuperProfiles/Bishop'
+import Bishop from './pages/SuperProfiles/Bishop';
 
 function App() {
   return (
