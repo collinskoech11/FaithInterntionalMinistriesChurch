@@ -8,6 +8,8 @@ import {Nav,Navbar} from 'react-bootstrap';
 import './style.css';
 import Sparkle from 'react-sparkle';
 import Youtube from './img/Youtube.png';
+import HomeIcon from './img/HomeIcon.png';
+import Branch from './img/Branch.png'
 
 
 class NavBar extends Component {
@@ -32,7 +34,7 @@ render() {
         <MDBCollapse id="navbarCollapse3" isOpen={this.state.isOpen} navbar>
           <MDBNavbarNav left>
             <MDBNavItem active to="/">
-            <Nav.Link href="/">Home</Nav.Link>
+            <Nav.Link href="/"><img src={HomeIcon} className="icon" alt=""/></Nav.Link>
             </MDBNavItem>
 
             <MDBNavItem to="/Live">
@@ -45,7 +47,7 @@ render() {
             <MDBNavItem>
               <MDBDropdown>
                 <MDBDropdownToggle nav caret>
-                  <span className="mr-2">Our Branches</span>
+                  <span className="mr-2"><img src={Branch} className="icon" alt=""/></span>
                 </MDBDropdownToggle>
                 <MDBDropdownMenu className="dropDown">
                   <MDBDropdownItem href="/branches/Kericho">Kericho FMI</MDBDropdownItem>
