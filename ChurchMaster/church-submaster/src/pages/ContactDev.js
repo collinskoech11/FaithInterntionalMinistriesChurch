@@ -13,7 +13,7 @@ function ContactDev() {
             <div className="dev-desc">
                <a href="https://github.com/collinskoech11"><h2>Collins Koech</h2></a>
                <h3>Founder at DEVCOKENYA</h3>
-               <h5>collinskoechck34@gmail.com</h5>
+               <h5><a href="mailto:collinskoechck34@gmail.com">collinskoechck34@gmail.com</a></h5>
                <h5>+254728000107</h5>
             </div>
         </div>
