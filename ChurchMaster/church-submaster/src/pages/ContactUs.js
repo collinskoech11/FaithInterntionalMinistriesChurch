@@ -1,8 +1,19 @@
 import React, { Component } from 'react';
 import { MDBRow, MDBCol, MDBCard, MDBCardBody, MDBIcon, MDBBtn, MDBInput } from "mdbreact";
 
-export class ContactUs extends Component {
+export  class ContactUs extends React.Component {
+  
+
+  constructor(props) {
+    super(props);
+    this.submitForm = this.submitForm.bind(this);
+    this.state = {
+      status: ""
+    };
+  }
+
     render() {
+      const { status } = this.state;
         return (
             <section className="my-5">
       <h2 className="h1-responsive font-weight-bold text-center my-5">
@@ -17,6 +28,9 @@ export class ContactUs extends Component {
         <MDBCol lg="5" className="lg-0 mb-4">
           <MDBCard>
             <MDBCardBody>
+              <form onSubmit={this.submitForm}
+                    action="https://formspree.io/f/xpzokpwg"
+                    method="POST">
               <div className="form-header blue accent-1">
                 <h3 className="mt-2">
                   <MDBIcon icon="envelope" /> Write to us:
@@ -32,6 +46,7 @@ export class ContactUs extends Component {
                   iconClass="grey-text"
                   type="text"
                   id="form-name"
+                  name="message"
                 />
               </div>
               <div className="md-form">
@@ -39,7 +54,8 @@ export class ContactUs extends Component {
                   icon="envelope"
                   label="Your email"
                   iconClass="grey-text"
-                  type="text"
+                  type="email"
+                  name="message"
                   id="form-email"
                 />
               </div>
@@ -50,6 +66,7 @@ export class ContactUs extends Component {
                   iconClass="grey-text"
                   type="text"
                   id="form-subject"
+                  name="message"
                 />
               </div>
               <div className="md-form">
@@ -64,6 +81,9 @@ export class ContactUs extends Component {
               <div className="text-center">
                 <MDBBtn color="light-blue">Submit</MDBBtn>
               </div>
+              {status === "SUCCESS" ? <p>Thanks!</p> : <button>Submit</button>}
+              {status === "ERROR" && <p>Ooops! There was an error.</p>}
+              </form>
             </MDBCardBody>
           </MDBCard>
         </MDBCol>
@@ -104,6 +124,6 @@ export class ContactUs extends Component {
     </section>
         )
     }
-}
+};
 
 export default ContactUs
