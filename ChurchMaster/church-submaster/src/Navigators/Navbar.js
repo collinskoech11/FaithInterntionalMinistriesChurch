@@ -71,7 +71,7 @@ render() {
               </MDBDropdown>
             </MDBNavItem>
 
-            <MDBNavItem href="/AboutPage">
+            <MDBNavItem href="/JustFm">
             <Nav.Link href="/JustFm"><img src={justIcon} className="icon" /> Just fm</Nav.Link>
             </MDBNavItem>
 
