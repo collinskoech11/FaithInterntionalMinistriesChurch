@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { MDBRow, MDBCol, MDBCard, MDBCardBody, MDBIcon, MDBBtn, MDBInput } from "mdbreact";
 
-export  class ContactUs extends React.Component {
+export  class ContactUs extends Component {
   
 
   constructor(props) {
