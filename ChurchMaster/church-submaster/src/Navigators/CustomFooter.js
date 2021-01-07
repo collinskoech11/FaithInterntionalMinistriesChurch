@@ -97,7 +97,7 @@ const CustomFooter = () => {
       </MDBContainer>
       <div className="footer-copyright text-center py-3">
         <MDBContainer fluid>
-          &copy; {new Date().getFullYear()} Copyright: <a href="/"> Faith Ministries INternational </a>
+          &copy; {new Date().getFullYear()} Copyright: <a href="/"> Faith Ministries International </a>
         </MDBContainer>
       </div>
     </MDBFooter>
