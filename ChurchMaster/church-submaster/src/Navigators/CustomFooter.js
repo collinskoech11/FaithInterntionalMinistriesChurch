@@ -65,10 +65,10 @@ const CustomFooter = () => {
             </h6>
             <hr className="deep-purple accent-2 mb-4 mt-0 d-inline-block mx-auto" style={{ width: "60px" }} />
             <p>
-              <a href="#!">Your Account</a>
+              <a href="/ContactDev">Our Developers</a>
             </p>
             <p>
-              <a href="#!">Become an Affiliate</a>
+              <a href="#!">Become an Member</a>
             </p>
             <p>
               <a href="#!">Our Mission</a>
