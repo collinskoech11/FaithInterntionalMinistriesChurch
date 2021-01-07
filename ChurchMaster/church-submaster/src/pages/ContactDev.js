@@ -24,7 +24,7 @@ function ContactDev() {
             <div className="dev-desc">
                 <a href="https://github.com/Diana-Nyamai"><h2>Diana Nyamai</h2></a>
                 <h3>Co-Founder at DEVCOKENYA</h3>
-                <h5>dnyamai.dn@gmail.com</h5>
+                <h5><a href="mailto:dnyamai.dn@gmail.com">dnyamai.dn@gmail.com</a></h5>
                 <h5>+254798777814</h5>
             </div>
         </div>
