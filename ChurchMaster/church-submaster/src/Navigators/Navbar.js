@@ -12,6 +12,7 @@ import HomeIcon from './img/HomeIcon.png';
 import Branch from './img/Branch.png';
 import justIcon from './img/justIcon.png';
 import AboutIcon from './img/AboutIcon.png';
+import HelpIcon from './img/HelpIcon.png';
 
 
 class NavBar extends Component {
@@ -82,7 +83,7 @@ render() {
             <MDBNavItem>
             <MDBDropdown>
               <MDBDropdownToggle nav caret>
-                <span className="mr-2 ">Help</span>
+                <span className="mr-2 "><img src={HelpIcon}> Help</span>
               </MDBDropdownToggle>
               <MDBDropdownMenu>
                 <MDBDropdownItem href="/ContactUs">Contact Us</MDBDropdownItem>
