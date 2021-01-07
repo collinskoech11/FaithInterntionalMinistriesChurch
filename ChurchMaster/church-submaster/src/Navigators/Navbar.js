@@ -9,7 +9,9 @@ import './style.css';
 import Sparkle from 'react-sparkle';
 import Youtube from './img/Youtube.png';
 import HomeIcon from './img/HomeIcon.png';
-import Branch from './img/Branch.png'
+import Branch from './img/Branch.png';
+import justIcon from './img/justIcon.png';
+import AboutIcon from './img/AboutIcon.png';
 
 
 class NavBar extends Component {
@@ -38,7 +40,7 @@ render() {
             </MDBNavItem>
 
             <MDBNavItem to="/Live">
-            <Nav.Link href="/Live"><img src={Youtube} className="icon"alt=""/></Nav.Link>
+            <Nav.Link href="/Live"><img src={Youtube} className="icon"/></Nav.Link>
             </MDBNavItem>
            
             
@@ -47,7 +49,7 @@ render() {
             <MDBNavItem>
               <MDBDropdown>
                 <MDBDropdownToggle nav caret>
-                  <span className="mr-2"><img src={Branch} className="icon" alt=""/></span>
+                  <span className="mr-2"><img src={Branch} className="icon" /></span>
                 </MDBDropdownToggle>
                 <MDBDropdownMenu className="dropDown">
                   <MDBDropdownItem href="/branches/Kericho">Kericho FMI</MDBDropdownItem>
@@ -69,18 +71,18 @@ render() {
             </MDBNavItem>
 
             <MDBNavItem href="/AboutPage">
-            <Nav.Link href="/JustFm">Just Fm</Nav.Link>
+            <Nav.Link href="/JustFm"><img src={justIcon} className="icon" /></Nav.Link>
             </MDBNavItem>
 
             <MDBNavItem href="/AboutPage">
-            <Nav.Link href="/AboutPage">About Us</Nav.Link>
+          <Nav.Link className="black-text" href="/AboutPage"><img src={AboutIcon} className="icon"/> </Nav.Link>
             </MDBNavItem>
 
 
             <MDBNavItem>
             <MDBDropdown>
               <MDBDropdownToggle nav caret>
-                <span className="mr-2">Help</span>
+                <span className="mr-2 black-text">Help</span>
               </MDBDropdownToggle>
               <MDBDropdownMenu>
                 <MDBDropdownItem href="/ContactUs">Contact Us</MDBDropdownItem>
