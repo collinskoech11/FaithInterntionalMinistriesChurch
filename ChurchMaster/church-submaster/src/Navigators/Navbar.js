@@ -83,7 +83,7 @@ render() {
             <MDBNavItem>
             <MDBDropdown>
               <MDBDropdownToggle nav caret>
-                <span className="mr-2 "><img src={HelpIcon}> Help</span>
+                <span className="mr-2 "><img src={HelpIcon} className="icon"/> Help</span>
               </MDBDropdownToggle>
               <MDBDropdownMenu>
                 <MDBDropdownItem href="/ContactUs">Contact Us</MDBDropdownItem>
