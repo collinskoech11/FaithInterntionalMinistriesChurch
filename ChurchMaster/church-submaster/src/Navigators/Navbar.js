@@ -7,6 +7,7 @@ import { BrowserRouter as Router } from 'react-router-dom';
 import {Nav,Navbar} from 'react-bootstrap';
 import './style.css';
 import Sparkle from 'react-sparkle';
+import Youtube from './img/Youtube.png';
 
 
 class NavBar extends Component {
@@ -35,7 +36,7 @@ render() {
             </MDBNavItem>
 
             <MDBNavItem to="/Live">
-            <Nav.Link href="/Live">Live church service</Nav.Link>
+            <Nav.Link href="/Live"><img src={Youtube} className="icon"alt=""/></Nav.Link>
             </MDBNavItem>
            
             

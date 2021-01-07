@@ -16,3 +16,11 @@
 .dropDown{
     z-index: 10;
 }
+.icon{
+    height:30px;
+    width: 50px;
+}
+.icon img{
+    height:20px;
+    width: 40px;
+}
