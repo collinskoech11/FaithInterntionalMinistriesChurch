@@ -22,7 +22,7 @@ export default function Home() {
                             <h3>No of Satelite Branches :</h3>
                         </div>
                         <div className="block">
-                            <h4>
+                            <h3>
                             <CountUp start={0} end={151} delay={0} duration={5}>
                             {({ countUpRef }) => (
                                 <div>
@@ -30,7 +30,7 @@ export default function Home() {
                                 </div>
                             )}
                             </CountUp>
-                            </h4>
+                            </h3>
                         </div>
                         <div className="block">
                             <h3>Total Members :</h3>
