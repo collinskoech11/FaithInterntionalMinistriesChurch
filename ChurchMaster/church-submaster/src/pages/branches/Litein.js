@@ -552,7 +552,7 @@ function Litein() {
                 <p></p>
             </div>
             <div className="data">
-                <p>16</p>
+                <p>36</p>
             </div>
             <div className="data">
                 <p></p>
