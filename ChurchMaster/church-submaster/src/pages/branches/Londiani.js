@@ -133,13 +133,13 @@ function Londiani() {
         </div>
         <div className="sub-branch">
             <div className="data">
-                <p>Total</p>
+                <h2>Total</h2>
             </div>
             <div className="data">
                 <p></p>
             </div>
             <div className="data">
-                <p>7</p>
+                <h2>7</h2>
             </div>
             <div className="data">
                 <p></p>
