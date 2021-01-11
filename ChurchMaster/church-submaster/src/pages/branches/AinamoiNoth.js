@@ -216,6 +216,20 @@ function AinamoiNoth() {
                 <p></p>
             </div>  
         </div>
+        <div className="sub-branch">
+            <div className="data">
+                <p>Total</p>
+            </div>
+            <div className="data">
+                <p></p>
+            </div>
+            <div className="data">
+                <p>13</p>
+            </div>
+            <div className="data">
+                <p></p>
+            </div>  
+        </div>
         </>
     )
 }
