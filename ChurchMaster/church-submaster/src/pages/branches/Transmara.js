@@ -187,6 +187,20 @@ function Transmara() {
                 <p>25</p>
             </div>  
         </div>
+        <div className="sub-branch">
+            <div className="data">
+                <p>Total</p>
+            </div>
+            <div className="data">
+                <p></p>
+            </div>
+            <div className="data">
+                <p>11</p>
+            </div>
+            <div className="data">
+                <p></p>
+            </div>  
+        </div>
     </>
     )
 }
