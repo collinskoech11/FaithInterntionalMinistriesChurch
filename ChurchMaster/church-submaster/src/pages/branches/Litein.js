@@ -544,6 +544,20 @@ function Litein() {
                     <p></p>
                 </div>  
             </div>
+        <div className="sub-branch">
+            <div className="data">
+                <p>Total</p>
+            </div>
+            <div className="data">
+                <p></p>
+            </div>
+            <div className="data">
+                <p>16</p>
+            </div>
+            <div className="data">
+                <p></p>
+            </div>  
+        </div>
         </>
     )
 }
