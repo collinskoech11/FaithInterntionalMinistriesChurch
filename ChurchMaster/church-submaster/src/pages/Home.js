@@ -63,17 +63,7 @@ export default function Home() {
             <div className="container">
                 <Chairman/>
             </div>
-            <div className="container first">
-               
-                <div className="voice">
-                   <h3>Join us Sundaylive</h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat dolores impedit eos placea</p>
-                </div>
-                <div className="voice">
-                    <h3>Offerings &amp; Contributions</h3>
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt repellat quisquam autem in p</p>
-                </div>
-            </div>
+            
             <div className="container">
                 <Upcoming/>
             </div>
