@@ -7,12 +7,7 @@ import { BrowserRouter as Router } from 'react-router-dom';
 import {Nav,Navbar} from 'react-bootstrap';
 import './style.css';
 import Sparkle from 'react-sparkle';
-import Youtube from './img/Youtube.png';
-import HomeIcon from './img/HomeIcon.png';
-import Branch from './img/Branch.png';
-import justIcon from './img/justIcon.png';
-import AboutIcon from './img/AboutIcon.png';
-import HelpIcon from './img/HelpIcon.png';
+
 
 
 class NavBar extends Component {
@@ -37,11 +32,11 @@ render() {
         <MDBCollapse id="navbarCollapse3" isOpen={this.state.isOpen} navbar>
           <MDBNavbarNav left>
             <MDBNavItem active to="/">
-            <Nav.Link href="/"><img src={HomeIcon} className="icon" alt=""/> Home</Nav.Link>
+            <Nav.Link href="/"> Home</Nav.Link>
             </MDBNavItem>
 
             <MDBNavItem to="/Live">
-            <Nav.Link href="/Live"><img src={Youtube} className="icon"/> Live Service</Nav.Link>
+            <Nav.Link href="/Live"> Live Service</Nav.Link>
             </MDBNavItem>
            
             
@@ -50,7 +45,7 @@ render() {
             <MDBNavItem>
               <MDBDropdown>
                 <MDBDropdownToggle nav caret>
-                  <span className="mr-2"><img src={Branch} className="icon" /> Our Branches</span>
+                  <span className="mr-2"> Our Branches</span>
                 </MDBDropdownToggle>
                 <MDBDropdownMenu className="dropDown">
                   <MDBDropdownItem href="/branches/Kericho">Kericho FMI</MDBDropdownItem>
@@ -72,18 +67,18 @@ render() {
             </MDBNavItem>
 
             <MDBNavItem href="/JustFm">
-            <Nav.Link href="/JustFm"><img src={justIcon} className="icon" /> Just fm</Nav.Link>
+            <Nav.Link href="/JustFm"> Just fm</Nav.Link>
             </MDBNavItem>
 
             <MDBNavItem href="/AboutPage">
-          <Nav.Link  href="/AboutPage"><img src={AboutIcon} className="icon"/> About Us </Nav.Link>
+          <Nav.Link  href="/AboutPage"> About Us </Nav.Link>
             </MDBNavItem>
 
 
             <MDBNavItem>
             <MDBDropdown>
               <MDBDropdownToggle nav caret>
-                <span className="mr-2 "><img src={HelpIcon} className="icon"/> Help</span>
+                <span className="mr-2 "> Help</span>
               </MDBDropdownToggle>
               <MDBDropdownMenu>
                 <MDBDropdownItem href="/ContactUs">Contact Us</MDBDropdownItem>
