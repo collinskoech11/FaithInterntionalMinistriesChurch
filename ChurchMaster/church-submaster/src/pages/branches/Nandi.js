@@ -12,7 +12,7 @@ function Nandi() {
                 <img src="https://source.unsplash.com/400x200/?Bishop" alt="Branch head profile"/>
             </div>
             <div className="profile-text">
-            <h2>Pastor In Charge</h2>
+            <h2>Overseer</h2>
                <h1> Rev Tabut</h1>
             </div>
         </div>

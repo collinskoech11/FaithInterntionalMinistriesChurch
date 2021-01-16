@@ -4,16 +4,9 @@ import { MDBRow, MDBCol, MDBCard, MDBCardBody, MDBIcon, MDBBtn, MDBInput } from 
 export  class ContactUs extends Component {
   
 
-  constructor(props) {
-    super(props);
-    this.submitForm = this.submitForm.bind(this);
-    this.state = {
-      status: ""
-    };
-  }
+  
 
     render() {
-      const { status } = this.state;
         return (
             <section className="my-5">
       <h2 className="h1-responsive font-weight-bold text-center my-5">
@@ -28,7 +21,7 @@ export  class ContactUs extends Component {
         <MDBCol lg="5" className="lg-0 mb-4">
           <MDBCard>
             <MDBCardBody>
-              <form onSubmit={this.submitForm}
+              <form 
                     action="https://formspree.io/f/xpzokpwg"
                     method="POST">
               <div className="form-header blue accent-1">
@@ -81,8 +74,7 @@ export  class ContactUs extends Component {
               <div className="text-center">
                 <MDBBtn color="light-blue">Submit</MDBBtn>
               </div>
-              {status === "SUCCESS" ? <p>Thanks!</p> : <button>Submit</button>}
-              {status === "ERROR" && <p>Ooops! There was an error.</p>}
+              
               </form>
             </MDBCardBody>
           </MDBCard>

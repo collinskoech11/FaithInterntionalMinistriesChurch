@@ -1,5 +1,6 @@
 import React from 'react';
-import './style.css'
+import './style.css';
+import CountUp from 'react-countup';
 
 function AinamoiNoth() {
     return (
@@ -12,9 +13,15 @@ function AinamoiNoth() {
                 <img src="https://source.unsplash.com/400x200/?Bishop" alt="Branch head profile"/>
             </div>
             <div className="profile-text">
-                <h2>Pastor In Charge</h2>
+                <h2>Overseer</h2>
                <h1> William Samoei</h1>
-                <p></p>
+               <h3> <CountUp start={0} end={13} delay={0} duration={10}>
+                            {({ countUpRef }) => (
+                                <div>
+                                <span ref={countUpRef} />
+                                </div>
+                            )}
+                            </CountUp> Branches</h3>
             </div>
         </div>
         <div className="sub-branch-title">
