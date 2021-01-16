@@ -1,5 +1,6 @@
 import React from 'react';
 import './style.css';
+import CountUp from 'react-countup'
 
 
 function Kipkelion() {
@@ -15,6 +16,13 @@ function Kipkelion() {
             <div className="profile-text">
             <h2>Overseer</h2>
                <h1> Rev Kirui</h1>
+               <h3> <CountUp start={0} end={16} delay={0} duration={11}>
+                            {({ countUpRef }) => (
+                                <div>
+                                <span ref={countUpRef} />
+                                </div>
+                            )}
+                            </CountUp>Sub Branches</h3>
             </div>
         </div>
         <div className="sub-branch-title">

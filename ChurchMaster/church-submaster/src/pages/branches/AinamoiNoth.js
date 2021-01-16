@@ -21,7 +21,7 @@ function AinamoiNoth() {
                                 <span ref={countUpRef} />
                                 </div>
                             )}
-                            </CountUp> Branches</h3>
+                            </CountUp>Sub Branches</h3>
             </div>
         </div>
         <div className="sub-branch-title">
