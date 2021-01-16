@@ -14,6 +14,13 @@ function Bomet() {
             <div className="profile-text">
                 <h2>Overseer</h2>
                <h1> Rev Chelule</h1>
+               <h3> <CountUp start={0} end={13} delay={0} duration={11}>
+                            {({ countUpRef }) => (
+                                <div>
+                                <span ref={countUpRef} />
+                                </div>
+                            )}
+                            </CountUp> Branches</h3>
                 <p></p>
             </div>
         </div>
