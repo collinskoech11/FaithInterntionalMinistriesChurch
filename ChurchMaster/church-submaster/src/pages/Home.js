@@ -67,7 +67,9 @@ export default function Home() {
             <div className="container">
                 <Upcoming/>
             </div>
-        
+            <div className="container">
+                <Upcoming/>
+            </div>
         </div>
     )
 }
