@@ -68,10 +68,10 @@ const CustomFooter = () => {
               <a href="/ContactDev">Our Developers</a>
             </p>
             <p>
-              <a href="/">Become an Member</a>
+              <a href="/ContactUs">Become an Member</a>
             </p>
             <p>
-              <a href="/">Our Mission</a>
+              <a href="/AboutPage">Our Mission</a>
             </p>
             <p>
               <a href="/ContactUs">Help</a>
