@@ -35,7 +35,7 @@ render() {
             <Nav.Link href="/"> Home</Nav.Link>
             </MDBNavItem>
 
-            <MDBNavItem to="/Live">
+            <MDBNavItem active to="/Live">
             <Nav.Link href="/Live"> Live Service</Nav.Link>
             </MDBNavItem>
            
@@ -66,11 +66,11 @@ render() {
               </MDBDropdown>
             </MDBNavItem>
 
-            <MDBNavItem href="/JustFm">
+            <MDBNavItem active href="/JustFm">
             <Nav.Link href="/JustFm"> Just fm</Nav.Link>
             </MDBNavItem>
 
-            <MDBNavItem href="/AboutPage">
+            <MDBNavItem active href="/AboutPage">
           <Nav.Link  href="/AboutPage"> About Us </Nav.Link>
             </MDBNavItem>
 
