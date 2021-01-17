@@ -7,6 +7,11 @@
     font-weight: bolder;
     font-size: 30px;
 }
+h3{
+    font-weight: bold;
+    color: blue;
+    text-transform: capitalize;
+}
 .b-title h2{
     color: Blue;
     font-weight: bolder;
