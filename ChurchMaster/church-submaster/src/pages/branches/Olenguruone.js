@@ -1,5 +1,6 @@
 import React from 'react';
 import './style.css';
+import CountUp from 'react-countup'
 
 function Olenguruone() {
     return (
@@ -14,7 +15,13 @@ function Olenguruone() {
             <div className="profile-text">
                 <h2>Overseer</h2>
                 <h1>Rev Joel Towett</h1>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea architecto consequatur exercitationem aspernatur quo ad voluptates reprehenderit animi doloremque debitis sint saepe quaerat odio nisi, ipsa at, neque veritatis modi.</p>
+                <h3> <CountUp start={0} end={14} delay={0} duration={10}>
+                            {({ countUpRef }) => (
+                                <div>
+                                <span ref={countUpRef} />
+                                </div>
+                            )}
+                            </CountUp>Sub Branches</h3>
             </div>
         </div>
         <div className="sub-branch-title">
