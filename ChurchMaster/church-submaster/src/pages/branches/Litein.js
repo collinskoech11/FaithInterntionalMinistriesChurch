@@ -1,5 +1,6 @@
 import React from 'react';
 import './style.css';
+import CountUp from 'react-countup';
 
 function Litein() {
     return (
@@ -14,6 +15,13 @@ function Litein() {
             <div className="profile-text">
             <h2>Overseer</h2>
                <h1>Rev Koskei</h1>
+               <h3> <CountUp start={0} end={36} delay={0} duration={10}>
+                            {({ countUpRef }) => (
+                                <div>
+                                <span ref={countUpRef} />
+                                </div>
+                            )}
+                            </CountUp>Sub Branches</h3>
             </div>
         </div>
 
