@@ -14,7 +14,7 @@ function Live() {
             <div className="col-lg-6 col-md-6">
               <h3>Latest Church Service</h3>
               <ReactPlayer
-                url="https://www.youtube.com/watch?v=H2wmR0dZv2w"
+                url="https://www.youtube.com/watch?v=jr21cYk9zUE"
               />
             </div>
           </div>
@@ -23,6 +23,12 @@ function Live() {
           <div className="col-lg-6" style={{marginBottom:'20px'}}>
             <div className="col-lg-6 col-md-6">
               <h3>More Live Church Services</h3>
+              <ReactPlayer url="https://www.youtube.com/watch?v=H2wmR0dZv2w"/>
+            </div>
+          </div>
+
+          <div className="col-lg-6" style={{marginBottom:'20px'}}>
+            <div className="col-lg-6 col-md-6">
               <ReactPlayer url="https://www.youtube.com/watch?v=CGXh0uBEtBc"/>
             </div>
           </div>
