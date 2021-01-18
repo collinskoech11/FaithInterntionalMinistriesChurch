@@ -1,5 +1,6 @@
 import React from 'react';
 import './style.css';
+import CountUp from 'react-countup';
 
 function Londiani() {
     return (
@@ -14,6 +15,13 @@ function Londiani() {
             <div className="profile-text">
             <h2>Overseer</h2>
                <h1>Rev Langat</h1>
+               <h3> <CountUp start={0} end={7} delay={0} duration={10}>
+                            {({ countUpRef }) => (
+                                <div>
+                                <span ref={countUpRef} />
+                                </div>
+                            )}
+                            </CountUp>Sub Branches</h3>
             </div>
         </div>
         <div className="sub-branch-title">
