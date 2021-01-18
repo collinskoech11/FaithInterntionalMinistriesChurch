@@ -14,7 +14,6 @@ import Changoi from './pages/branches/Changoi';
 import Kericho from './pages/branches/Kericho';
 import Kipkelion from './pages/branches/Kipkelion';
 import Kuresoi from './pages/branches/Kuresoi';
-import KuresoiSouth from './pages/branches/KuresoiSouth';
 import Litein from './pages/branches/Litein';
 import Londiani from './pages/branches/Londiani';
 import Makimeny from './pages/branches/Makimeny';
@@ -51,7 +50,6 @@ function App() {
      <Route path="/branches/Kericho" component={Kericho}/>
      <Route path="/branches/Kipkelion" component={Kipkelion}/>
      <Route path="/branches/Kuresoi" component={Kuresoi}/>
-     <Route path="/branches/KuresoiSouth" component={KuresoiSouth}/>
      <Route path="/branches/Litein" component={Litein}/>
      <Route path="/branches/Londiani" component={Londiani}/>
      <Route path="/branches/Makimeny" component={Makimeny}/>
