@@ -1,6 +1,7 @@
 import React from 'react';
 import './style.css';
 import CountUp from 'react-countup';
+import Koskei from './img/Koskei.jpeg'
 
 function Litein() {
     return (
@@ -10,7 +11,7 @@ function Litein() {
         </div>
         <div className="b-head">
             <div className="profile-img">
-                <img src="https://source.unsplash.com/400x200/?Bishop" alt="Branch head profile"/>
+                <img src={Koskei} alt="Branch head profile"/>
             </div>
             <div className="profile-text">
             <h2>Overseer</h2>
