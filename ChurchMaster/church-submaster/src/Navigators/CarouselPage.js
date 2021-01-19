@@ -1,6 +1,9 @@
 import React from "react";
 import { MDBCarousel, MDBCarouselCaption, MDBCarouselInner, MDBCarouselItem, MDBView, MDBMask, MDBContainer } from
 "mdbreact";
+import Carousel1 from './img/Carousel1.jpeg';
+import carousel2 from './img/carousel2.jpeg';
+import carousel3 from './img/carousel3.jpeg';
 
 
 const CarouselPage = () => {
@@ -18,7 +21,7 @@ const CarouselPage = () => {
           <MDBView>
             <img
               className="d-block w-100"
-              src="https://source.unsplash.com/400x300/?world"
+              src={Carousel1}
               alt="First slide"
             />
           <MDBMask overlay="black-light" />
@@ -32,13 +35,13 @@ const CarouselPage = () => {
           <MDBView>
             <img
               className="d-block w-100"
-              src="https://source.unsplash.com/400x300/?God"
+              src={carousel2}
               alt="First slide"
             />
           <MDBMask overlay="black-light" />
           </MDBView>
           <MDBCarouselCaption>
-            <h3 className="h3-responsive">All Styles</h3>
+            <h3 className="h3-responsive">All are welcome</h3>
             <p>Become a fashionista</p>
           </MDBCarouselCaption>
         </MDBCarouselItem>
@@ -46,7 +49,7 @@ const CarouselPage = () => {
           <MDBView>
             <img
               className="d-block w-100"
-              src="https://source.unsplash.com/400x300/?Jesus"
+              src={carousel3}
               alt="Second slide"
             />
           <MDBMask overlay="black-strong" />
@@ -66,7 +69,7 @@ const CarouselPage = () => {
           <MDBMask overlay="black-slight" />
           </MDBView>
           <MDBCarouselCaption>
-            <h3 className="h3-responsive">Large Variety of styles</h3>
+            <h3 className="h3-responsive">Heart Warming sermon</h3>
             <p>fit for all</p>
           </MDBCarouselCaption>
         </MDBCarouselItem>
