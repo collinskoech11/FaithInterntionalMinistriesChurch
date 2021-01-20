@@ -1,7 +1,7 @@
 import React from 'react';
 import './style.css';
 import CountUp from 'react-countup';
-import BometOv from './img/BometOv';
+import BometOv from './img/BometOv.jpeg';
 
 function Bomet() {
     return (

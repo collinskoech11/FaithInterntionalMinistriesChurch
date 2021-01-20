@@ -6,6 +6,7 @@ import Upcoming from '../Navigators/Upcoming';
 import './style.css';
 import Twitter from '../Navigators/Twitter';
 import CountUp from 'react-countup';
+import {Animated} from 'react-animated-css'
 
 
 
@@ -14,6 +15,7 @@ import CountUp from 'react-countup';
 export default function Home() {
     return (
         <div>
+            <Animated animationIn="bounceInLeft" animationOut="fadeOut" isVisible={true}>
             <div className="container first">
                 <div className="f-block"><CarouselPage/></div>
                 <div className="f-block">
@@ -47,6 +49,7 @@ export default function Home() {
                     </div>
                 </div>
             </div>
+            </Animated>
             <div className="container">
                 <Bishop/>
             </div>
@@ -70,6 +73,7 @@ export default function Home() {
             <div className="container">
                 <Upcoming/>
             </div>
+           
         </div>
     )
 }
