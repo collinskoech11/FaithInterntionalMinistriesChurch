@@ -38,7 +38,7 @@ export default function Home() {
                             <h3>Total Members :</h3>
                         </div>
                         <div className="block">
-                            <h3><CountUp start={0} end={7550} delay={0} delayend={2} duration={20} >
+                            <h3><CountUp start={0} end={7550} delay={0}  duration={20} >
                             {({ countUpRef }) => (
                                 <div>
                                 <span ref={countUpRef} />
@@ -50,7 +50,7 @@ export default function Home() {
                 </div>
             </div>
             </Animated>
-            <Animated animationIn="bounceInLeft" animationOut="fadeOut" isVisible={true} delay={6}>
+            <Animated animationIn="bounceInLeft" animationOut="fadeOut" isVisible={true} animationInDelay={6} animationInDuration={2000}>
             <div className="container">
                 <Bishop/>
             </div>
