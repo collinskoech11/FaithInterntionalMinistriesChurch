@@ -15,7 +15,7 @@ import {Animated} from 'react-animated-css'
 export default function Home() {
     return (
         <div>
-            <Animated animationIn="bounceInLeft" animationOut="fadeOut" isVisible={true}>
+            <Animated animationIn="bounceIn" animationOut="fadeOut" isVisible={true}>
             <div className="container first">
                 <div className="f-block"><CarouselPage/></div>
                 <div className="f-block">
