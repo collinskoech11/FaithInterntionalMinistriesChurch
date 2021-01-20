@@ -1,5 +1,6 @@
 import React from 'react';
-import './style.css'
+import './style.css';
+import NandiOv from './img/NandiOv.jpeg'
 
 function Nandi() {
     return (
