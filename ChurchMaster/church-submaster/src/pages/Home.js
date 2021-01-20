@@ -25,7 +25,7 @@ export default function Home() {
                         </div>
                         <div className="block">
                             <h3>
-                            <CountUp start={0} end={151} delay={0} duration={10}>
+                            <CountUp start={0} end={151} delay={0} duration={20}>
                             {({ countUpRef }) => (
                                 <div>
                                 <span ref={countUpRef} />
@@ -38,7 +38,7 @@ export default function Home() {
                             <h3>Total Members :</h3>
                         </div>
                         <div className="block">
-                            <h3><CountUp start={0} end={7550} delay={0} delayend={2} duration={5} >
+                            <h3><CountUp start={0} end={7550} delay={0} delayend={2} duration={20} >
                             {({ countUpRef }) => (
                                 <div>
                                 <span ref={countUpRef} />
@@ -50,9 +50,11 @@ export default function Home() {
                 </div>
             </div>
             </Animated>
+            <Animated animationIn="bounceInLeft" animationOut="fadeOut" isVisible={true} delay={6}>
             <div className="container">
                 <Bishop/>
             </div>
+            </Animated>
             <div className="container">
                 <h1>Join us Sunday mornings as we gather online</h1>
                 <p>The Faith INternational Ministries Church wants to do everything we can to ensure that our communities are taking the necessary precautions to slow the spread of COVID-19. At the same time, we want to make it possible for everyone to experience the fellowship and Biblical teaching that keeps our faith strong, which is more important now than ever.

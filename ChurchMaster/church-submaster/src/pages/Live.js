@@ -2,12 +2,14 @@
 import React from 'react';
 import ReactPlayer from "react-player";
 import './style.css';
+import {Animated} from 'react-animated-css'
 
 
 function Live() {
     return (
       <>
       <div className="row">
+      <Animated animationIn="bounceInLeft" animationOut="fadeOut" isVisible={true} delay={6}>
 
 
         <div className="col-lg-6" style={{marginBottom:'20px'}}>
@@ -50,6 +52,7 @@ function Live() {
               <ReactPlayer url="https://www.youtube.com/watch?v=Qt7JuWOVTWw"/>
             </div>
         </div>
+        </Animated>
        </div> 
        </>
     )
