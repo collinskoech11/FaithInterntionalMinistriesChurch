@@ -15,7 +15,7 @@ function Litein() {
             </div>
             <div className="profile-text">
             <h2>Overseer</h2>
-               <h1>Rev Koskei</h1>
+               <h1>Rev Wilson Koskey</h1>
                <h3> <CountUp start={0} end={36} delay={0} duration={10}>
                             {({ countUpRef }) => (
                                 <div>

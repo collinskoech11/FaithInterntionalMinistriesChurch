@@ -1,6 +1,7 @@
 import React from 'react';
 import './style.css';
-import CountUp from 'react-countup'
+import CountUp from 'react-countup';
+import NakuruOv from './img/NakuruOv.jpeg'
 
 function Olenguruone() {
     return (
@@ -10,7 +11,7 @@ function Olenguruone() {
         </div>
         <div className="b-head">
             <div className="profile-img">
-                <img src="https://source.unsplash.com/400x200/?Bishop" alt="Branch head profile"/>
+                <img src={NakuruOv} alt="Branch head profile"/>
             </div>
             <div className="profile-text">
                 <h2>Overseer</h2>
