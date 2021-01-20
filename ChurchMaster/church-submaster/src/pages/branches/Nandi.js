@@ -10,11 +10,11 @@ function Nandi() {
         </div>
         <div className="b-head">
             <div className="profile-img">
-                <img src="https://source.unsplash.com/400x200/?Bishop" alt="Branch head profile"/>
+                <img src={NandiOv} alt="Branch head profile"/>
             </div>
             <div className="profile-text">
             <h2>Overseer</h2>
-               <h1> Rev Tabut</h1>
+               <h1> PASTOR ANDREW</h1>
             </div>
         </div>
         <div className="sub-branch-title">

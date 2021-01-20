@@ -1,6 +1,7 @@
 import React from 'react';
 import './style.css';
 import CountUp from 'react-countup';
+import BometOv from './img/BometOv';
 
 function Bomet() {
     return (
@@ -10,11 +11,11 @@ function Bomet() {
         </div>
         <div className="b-head">
             <div className="profile-img">
-                <img src="https://source.unsplash.com/400x200/?Bishop" alt="Branch head profile"/>
+                <img src={BometOv} alt="Branch head profile"/>
             </div>
             <div className="profile-text">
                 <h2>Overseer</h2>
-               <h1> Rev Chelule</h1>
+               <h1>JOSEAH KIRUI</h1>
                <h3> <CountUp start={0} end={13} delay={0} duration={11}>
                             {({ countUpRef }) => (
                                 <div>

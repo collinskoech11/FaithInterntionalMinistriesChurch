@@ -1,6 +1,7 @@
 import React from 'react';
 import './style.css';
-import CountUp from 'react-countup'
+import CountUp from 'react-countup';
+import KipkelionOv from './img/KipkelionOv.jpeg';
 
 
 function Kipkelion() {
@@ -15,7 +16,7 @@ function Kipkelion() {
             </div>
             <div className="profile-text">
             <h2>Overseer</h2>
-               <h1> Rev Kirui</h1>
+               <h1> Rev Paul Kirui</h1>
                <h3> <CountUp start={0} end={16} delay={0} duration={11}>
                             {({ countUpRef }) => (
                                 <div>
