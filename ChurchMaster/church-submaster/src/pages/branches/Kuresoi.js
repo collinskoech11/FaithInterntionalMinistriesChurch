@@ -41,20 +41,7 @@ function Kuresoi() {
                 <h4>Number of Members</h4>
             </div>    
         </div>
-        <div className="sub-branch">
-            <div className="data">
-                <h4>Church Name</h4>
-            </div>
-            <div className="data">
-                <h4>Pastors Name</h4>
-            </div>
-            <div className="data">
-                <h4>Pastors Contact</h4>              
-            </div>
-            <div className="data">
-                <h4>Number of Members</h4>
-            </div>    
-        </div>
+        
         <div className="sub-branch">
             <div className="data">
                 <p>Siongiroi</p>
