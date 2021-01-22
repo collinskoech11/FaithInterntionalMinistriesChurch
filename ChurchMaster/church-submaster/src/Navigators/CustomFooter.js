@@ -11,21 +11,7 @@ const CustomFooter = () => {
               
             </MDBCol>
             <MDBCol md="6" lg="7" className="text-center text-md-right">
-              <a href="#!" className="fb-ic ml-0">
-                <i className="fab fa-facebook-f white-text mr-lg-4"> </i>
-              </a>
-              <a href="#!" className="tw-ic">
-                <i  className="fab fa-twitter white-text mr-lg-4"> </i>
-              </a>
-              <a href="#!" className="gplus-ic">
-                <i className="fab fa-google-plus-g white-text mr-lg-4"> </i>
-              </a>
-              <a href="#!" className="li-ic">
-                <i className="fab fa-linkedin-in white-text mr-lg-4"> </i>
-              </a>
-              <a href="#!" className="ins-ic">
-                <i className="fab fa-instagram white-text mr-lg-4"> </i>
-              </a>
+              
             </MDBCol>
           </MDBRow>
         </MDBContainer>
