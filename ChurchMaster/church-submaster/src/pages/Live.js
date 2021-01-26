@@ -16,12 +16,8 @@ function Live() {
             <div className="col-lg-6 col-md-6">
               <h3>Latest Church Service</h3>
               <ReactPlayer
-<<<<<<< HEAD
-                url="https://www.youtube.com/watch?v=fMGhZ5QorVk"
-=======
-                url="https://youtu.be/fMGhZ5QorVk"
->>>>>>> 42aa75300955b88bc76de7c3354c29be16e768a1
-              />
+                url="https://www.youtube.com/watch?v=fMGhZ5QorVk"/>
+               
             </div>
           </div>
         </Animated>
