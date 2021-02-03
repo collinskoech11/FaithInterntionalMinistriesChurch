@@ -11,7 +11,7 @@ function JustFm() {
     <div className="wrapper">
           <MetaTags>
             <title>Page 1</title>
-            <meta name="description" content="Some description." />
+            <meta name="description" content="JUst Fm Page " />
             <meta property="og:title" content="MyApp" />
             <meta property="og:image" content="path/to/image.jpg" />
           </MetaTags>
