@@ -7,9 +7,26 @@ import './style.css';
 import Twitter from '../Navigators/Twitter';
 import CountUp from 'react-countup';
 import {Animated} from 'react-animated-css';
+import TextTransition, { presets } from "react-text-transition"
 
 
-
+const TEXTS = [
+    "Forest",
+    "Building",
+    "Tree",
+    "Color"
+  ];
+  
+  const App = () => {
+    const [index, setIndex] = React.useState(0);
+  
+    React.useEffect(() => {
+      const intervalId = setInterval(() =>
+        setIndex(index => index + 1),
+        3000 // every 3 seconds
+      );
+    }, []);
+  }
 
 export default function Home() {
     return (
@@ -20,7 +37,7 @@ export default function Home() {
                 <div className="f-block">
                     <div className="mpesa">
                         <div className="block">
-                            <h3>No of Satelite Branches :</h3>
+                            <h3><TextTransition/></h3>
                         </div>
                         <div className="block">
                             <h3>
