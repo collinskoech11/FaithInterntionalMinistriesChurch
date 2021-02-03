@@ -12,7 +12,7 @@ function JustFm() {
           <MetaTags>
             <title>Page 1</title>
             <meta name="description" content="JUst Fm Page " />
-            <meta property="og:title" content="MyApp" />
+            <meta property="og:title" content="Faith International Ministries Church " />
             <meta property="og:image" content="path/to/image.jpg" />
           </MetaTags>
           <div className="content"> Some Content </div>
