@@ -5,7 +5,7 @@ function FacebookPage() {
     return (
         <div style={{width: 1000}}>
             <div class="fb-page" 
-                data-href="https://www.facebook.com/facebook"
+                data-href="https://web.facebook.com/thejustfm"
                 data-tabs="timeline,events,messages"
                 data-width="990" 
                 data-hide-cover="false"
