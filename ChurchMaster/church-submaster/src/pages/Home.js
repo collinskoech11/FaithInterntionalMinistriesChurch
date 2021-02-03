@@ -6,7 +6,8 @@ import Upcoming from '../Navigators/Upcoming';
 import './style.css';
 import Twitter from '../Navigators/Twitter';
 import CountUp from 'react-countup';
-import {Animated} from 'react-animated-css'
+import {Animated} from 'react-animated-css';
+import buildSitemap from 'react-build-sitemap'
 
 
 
@@ -75,7 +76,7 @@ export default function Home() {
             <div className="container">
                 <Upcoming/>
             </div>
-           
+           buildSitemap('./path/to/component/Component.jsx', './build/path/for/sitemap', 'http://yoururl.com')
         </div>
     )
 }

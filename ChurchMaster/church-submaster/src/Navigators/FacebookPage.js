@@ -1,12 +1,18 @@
-import React, { Component} from 'react';
-import { FacebookProvider, Page } from 'react-facebook';
- 
-export default class FacebookPage extends Component {
-  render() {
+import React from 'react';
+import "./style.css";
+
+function FacebookPage() {
     return (
-      <FacebookProvider appId="123456789">
-        <Page href="https://www.facebook.com" tabs="timeline" />
-      </FacebookProvider>    
-    );
-  }
+        <div style={{width: 1000}}>
+            <div class="fb-page" 
+                data-href="https://www.facebook.com/facebook"
+                data-tabs="timeline,events,messages"
+                data-width="990" 
+                data-hide-cover="false"
+                data-show-facepile="false">
+            </div>
+        </div>
+    )
 }
+
+export default FacebookPage

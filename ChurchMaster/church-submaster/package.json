@@ -55,6 +55,7 @@
     ]
   },
   "devDependencies": {
+    "react-build-sitemap": "^0.2.2",
     "sass": "^1.28.0"
   }
 }
