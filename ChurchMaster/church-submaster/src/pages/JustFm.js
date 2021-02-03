@@ -1,4 +1,5 @@
 import React from 'react';
+import FacebookPage from '../Navigators/FacebookPage';
 import './style.css';
 import just from './img/just.jpg';
 import Twitter from '../Navigators/Twitter';
@@ -15,6 +16,9 @@ function JustFm() {
     </div>
     <div className="container">
       <Twitter/>
+    </div>
+    <div className="container">
+      <FacebookPage/>
     </div>
     </>
   )
