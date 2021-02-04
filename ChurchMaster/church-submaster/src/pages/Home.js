@@ -79,12 +79,16 @@ export default function Home() {
                         <Chairman/>
                     </div>
                 </ScrollPage>
+                <ScrollPage>
                     <div className="container">
                         <Upcoming/>
                     </div>
+                </ScrollPage>
+                <ScrollPage>
                     <div className="container">
                         <Upcoming/>
                     </div>
+                </ScrollPage>
            </ScrollContainer>
         </div>
     )
