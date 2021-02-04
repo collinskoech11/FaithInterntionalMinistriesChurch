@@ -10,6 +10,7 @@ import Sparkle from 'react-sparkle';
 
 
 
+
 class NavBar extends Component {
 state = {
   isOpen: false
