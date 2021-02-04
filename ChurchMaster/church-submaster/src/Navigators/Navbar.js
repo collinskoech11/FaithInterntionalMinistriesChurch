@@ -25,8 +25,8 @@ render() {
       <div className="nav-con">
       <MDBNavbar color="indigo" dark expand="md"  margin-bottom="50px">
         <Navbar.Brand href="/">
-          <strong className="white-text">Faith Ministries International</strong>
-          <Sparkle>Faith Ministries International</Sparkle>
+          <strong className="white-text">Faith International Ministries</strong>
+          <Sparkle>Faith International Ministries</Sparkle>
         </Navbar.Brand>
         <MDBNavbarToggler onClick={this.toggleCollapse} />
         <MDBCollapse id="navbarCollapse3" isOpen={this.state.isOpen} navbar>
