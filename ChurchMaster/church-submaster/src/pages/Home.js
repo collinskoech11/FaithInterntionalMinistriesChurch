@@ -7,7 +7,7 @@ import './style.css';
 import Twitter from '../Navigators/Twitter';
 import CountUp from 'react-countup';
 import {Animated} from 'react-animated-css';
-import TextTransition, { presets } from "react-text-transition"
+import TextTransition, { presets, index } from "react-text-transition"
 
 
 const TEXTS = [
@@ -37,7 +37,11 @@ export default function Home() {
                 <div className="f-block">
                     <div className="mpesa">
                         <div className="block">
-                            <h3><TextTransition/></h3>
+                            <h3><TextTransition
+                                text={index % TEXTS[ TEXTS.length] }
+                                style={{color:'blue'}}
+                                springConfig={ presets.wobbly }
+                            /></h3>
                         </div>
                         <div className="block">
                             <h3>
