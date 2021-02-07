@@ -4,6 +4,7 @@ import { MDBCarousel, MDBCarouselCaption, MDBCarouselInner, MDBCarouselItem, MDB
 import Carousel1 from './img/Carousel1.jpeg';
 import carousel2 from './img/carousel2.jpeg';
 import carousel3 from './img/carousel3.jpeg';
+import poster from './img/poster.jpg'
 
 
 const CarouselPage = () => {
@@ -63,7 +64,7 @@ const CarouselPage = () => {
           <MDBView>
             <img
               className="d-block w-100"
-              src="https://source.unsplash.com/400x300/?Bible"
+              src={poster}
               alt="Third slide"
             />
           <MDBMask overlay="black-slight" />
