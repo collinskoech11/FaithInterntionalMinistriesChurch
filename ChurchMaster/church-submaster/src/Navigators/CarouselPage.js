@@ -4,7 +4,10 @@ import { MDBCarousel, MDBCarouselCaption, MDBCarouselInner, MDBCarouselItem, MDB
 import Carousel1 from './img/Carousel1.jpeg';
 import carousel2 from './img/carousel2.jpeg';
 import carousel3 from './img/carousel3.jpeg';
-import poster from './img/poster.jpg'
+import poster from './img/poster.jpg';
+import poster1 from './img/poster1.jpg';
+import poster2 from './img/poster2.jpg';
+import poster3 from './img/poster3.jpg'
 
 
 const CarouselPage = () => {
@@ -78,7 +81,7 @@ const CarouselPage = () => {
           <MDBView>
             <img
               className="d-block w-100"
-              src="https://source.unsplash.com/400x300/?Good news bible"
+              src={poster1}
               alt="First slide"
             />
           <MDBMask overlay="black-light" />
@@ -92,7 +95,7 @@ const CarouselPage = () => {
           <MDBView>
             <img
               className="d-block w-100"
-              src="https://source.unsplash.com/400x300/?Family"
+              src={poster2}
               alt="First slide"
             />
           <MDBMask overlay="black-light" />
@@ -106,7 +109,7 @@ const CarouselPage = () => {
           <MDBView>
             <img
               className="d-block w-100"
-              src="https://source.unsplash.com/400x300/?Disciples"
+              src={poster3}
               alt="First slide"
             />
           <MDBMask overlay="black-light" />
