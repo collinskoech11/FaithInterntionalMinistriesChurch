@@ -7,7 +7,7 @@ import carousel3 from './img/carousel3.jpeg';
 import poster from './img/poster.jpg';
 import poster1 from './img/poster1.jpg';
 import poster2 from './img/poster2.jpg';
-import poster3 from './img/poster3.jpg'
+import poster3 from './img/poster3.jpg';
 
 
 const CarouselPage = () => {
