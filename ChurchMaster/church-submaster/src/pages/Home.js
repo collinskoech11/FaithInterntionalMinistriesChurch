@@ -9,7 +9,6 @@ import CountUp from 'react-countup';
 import {Animated} from 'react-animated-css';
 
 
-
 export default function Home() {
     return (
         <div>
