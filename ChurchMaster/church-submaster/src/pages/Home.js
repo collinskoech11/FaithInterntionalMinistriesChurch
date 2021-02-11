@@ -7,7 +7,6 @@ import './style.css';
 import Twitter from '../Navigators/Twitter';
 import CountUp from 'react-countup';
 import {Animated} from 'react-animated-css';
-import FaithFacebookPage from '../Navigators/FaithFacebookPage';
 
 
 
@@ -60,9 +59,6 @@ export default function Home() {
                     With this in mind, we are ready to offer a series of special live stream worship services, Sundays at 11am GMT+3. These will take the place of in-person services for all of our Bay Area locations. We hope you’ll join us online!</p>
                 <br/><br/><a href="/Live">--- join us live</a>
                 <img src="https://source.unsplash.com/400x300/?Church" alt=""/>
-            </div>
-            <div className="container">
-                <FaithFacebookPage/>
             </div>
             <div className="container">
                 <Twitter/>
