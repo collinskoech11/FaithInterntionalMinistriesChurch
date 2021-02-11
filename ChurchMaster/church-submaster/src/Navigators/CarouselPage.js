@@ -30,10 +30,7 @@ const CarouselPage = () => {
             />
           <MDBMask overlay="black-light" />
           </MDBView>
-          <MDBCarouselCaption>
-            <h3 className="h3-responsive">Congregation</h3>
-            <p>Congregation</p>
-          </MDBCarouselCaption>
+          
         </MDBCarouselItem>
         <MDBCarouselItem itemId="2">
           <MDBView>
@@ -44,10 +41,7 @@ const CarouselPage = () => {
             />
           <MDBMask overlay="black-light" />
           </MDBView>
-          <MDBCarouselCaption>
-            <h3 className="h3-responsive">All are welcome</h3>
-            <p>Become a fashionista</p>
-          </MDBCarouselCaption>
+          
         </MDBCarouselItem>
         <MDBCarouselItem itemId="3">
           <MDBView>
@@ -58,10 +52,7 @@ const CarouselPage = () => {
             />
           <MDBMask overlay="black-strong" />
           </MDBView>
-          <MDBCarouselCaption>
-            <h3 className="h3-responsive">Best Stock prices</h3>
-            <p>Bussiness Oriented</p>
-          </MDBCarouselCaption>
+          
         </MDBCarouselItem>
         <MDBCarouselItem itemId="4">
           <MDBView>
@@ -72,10 +63,7 @@ const CarouselPage = () => {
             />
           <MDBMask overlay="black-slight" />
           </MDBView>
-          <MDBCarouselCaption>
-            <h3 className="h3-responsive">Heart Warming sermon</h3>
-            <p>fit for all</p>
-          </MDBCarouselCaption>
+          
         </MDBCarouselItem>
         <MDBCarouselItem itemId="5">
           <MDBView>
@@ -86,10 +74,7 @@ const CarouselPage = () => {
             />
           <MDBMask overlay="black-light" />
           </MDBView>
-          <MDBCarouselCaption>
-            <h3 className="h3-responsive">All Latest Fashion available</h3>
-            <p>Become a fashionista</p>
-          </MDBCarouselCaption>
+          
         </MDBCarouselItem>
         <MDBCarouselItem itemId="6">
           <MDBView>
@@ -100,10 +85,7 @@ const CarouselPage = () => {
             />
           <MDBMask overlay="black-light" />
           </MDBView>
-          <MDBCarouselCaption>
-            <h3 className="h3-responsive">All Latest Fashion available</h3>
-            <p>Become a fashionista</p>
-          </MDBCarouselCaption>
+          
         </MDBCarouselItem>
         <MDBCarouselItem itemId="7">
           <MDBView>
@@ -114,10 +96,7 @@ const CarouselPage = () => {
             />
           <MDBMask overlay="black-light" />
           </MDBView>
-          <MDBCarouselCaption>
-            <h3 className="h3-responsive">Best of fashion in shoes</h3>
-            <p>Become a fashionista</p>
-          </MDBCarouselCaption>
+          
         </MDBCarouselItem>
       </MDBCarouselInner>
     </MDBCarousel>
