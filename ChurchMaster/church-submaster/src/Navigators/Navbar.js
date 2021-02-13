@@ -14,7 +14,7 @@ class NavBar extends React.Component {
   state = {
     isOpen: false,
     nav:false
-  };
+  }
   componentDidMount(){
     window.addEventListener("scroll", this.handleScroll);
   }
@@ -28,7 +28,7 @@ class NavBar extends React.Component {
       }
     } else {
       if(this.state.nav){
-        this.setState({nav: false})
+        this.setState({nav: false});
       }
     }
   }
@@ -41,7 +41,7 @@ render() {
   return (
     <Router>
       <div className={`Nav ${this.state.nav && 'Nav__black'}`}>
-        <div className="nav-con">
+        <div className="">
           <MDBNavbar color="indigo" dark expand="md"  margin-bottom="50px">
             <Navbar.Brand href="/">
               <strong className="white-text">Faith International Ministries</strong>
