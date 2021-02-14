@@ -40,7 +40,7 @@ toggleCollapse = () => {
 render() {
   return (
     <Router>
-      <div className={`Nav ${this.state.nav && 'Nav__black'}`}>
+      <div >
         <div className="">
           <MDBNavbar color="indigo" dark expand="md"  margin-bottom="50px">
             <Navbar.Brand href="/">
