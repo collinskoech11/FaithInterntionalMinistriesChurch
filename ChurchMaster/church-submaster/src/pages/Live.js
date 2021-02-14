@@ -17,6 +17,7 @@ function Live() {
               <h3>Latest Church Service</h3>
               <ReactPlayer
                 url="https://www.youtube.com/watch?v=J-cvX3he9b8"
+                pip={true}
                 />
                
             </div>
