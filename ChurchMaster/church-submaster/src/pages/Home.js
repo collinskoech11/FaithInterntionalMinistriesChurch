@@ -4,6 +4,7 @@ import Bishop from './SuperProfiles/Bishop';
 import Chairman from './SuperProfiles/Chairman';
 import Upcoming from '../Navigators/Upcoming';
 import './style.css';
+import './home.css';
 import Twitter from '../Navigators/Twitter';
 import CountUp from 'react-countup';
 import {Animated} from 'react-animated-css';
@@ -12,6 +13,8 @@ import {Animated} from 'react-animated-css';
 export default function Home() {
     return (
         <div>
+            <div className="hero-container">
+            <video src='./videos/video-2.mp4' autoPlay loop muted />
             <Animated animationIn="bounceIn" animationOut="fadeOut" isVisible={true}>
             <div className="container first">
                 <div className="f-block"><CarouselPage/></div>
@@ -47,6 +50,7 @@ export default function Home() {
                 </div>
             </div>
             </Animated>
+            </div>
             <Animated animationIn="bounceInLeft" animationOut="fadeOut" isVisible={true} animationInDelay={6} animationInDuration={2000}>
             <div className="container">
                 <Bishop/>
