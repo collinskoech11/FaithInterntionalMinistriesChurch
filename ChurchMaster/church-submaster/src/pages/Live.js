@@ -82,12 +82,6 @@ function Live() {
             </div>
           </div>
 
-          <div className="col-lg-6" style={{marginBottom:'20px'}}>
-            <div className="col-lg-6 col-md-6">
-              <ReactPlayer url="https://www.youtube.com/watch?v=GdySa2IDuhY"/>
-            </div>
-          </div>
-  
        </div> 
        </>
     )
