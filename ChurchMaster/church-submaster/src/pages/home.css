@@ -6,7 +6,7 @@ video {
     z-index: 1;
   }
   .hero-container {
-    background: url('/videos/video-2.mp4') center center/cover no-repeat;
+    background: url('./videos/video-2.mp4') center center/cover no-repeat;
     height: auto;
     width: 100%;
     display: flex;
