@@ -6,6 +6,11 @@
     width: 100%;
     height: auto;
     text-align: center;
+    overflow:hidden;
+}
+.JustCon img{
+    width:100%;
+    height:100%;
 }
 .justCon h1{
     text-transform: uppercase;
