@@ -19,7 +19,7 @@ import Londiani from './pages/branches/Londiani';
 import Makimeny from './pages/branches/Makimeny';
 import Marishoni from './pages/branches/Marishoni';
 import Nandi from './pages/branches/Nandi';
-import Olenguruone from './pages/branches/Olenguruone';
+import Nakuru from './pages/branches/Nakuru';
 import Transmara from './pages/branches/Transmara';
 import Bomet from './pages/branches/Bomet';
 import Live from './pages/Live';
@@ -55,7 +55,7 @@ function App() {
      <Route path="/branches/Makimeny" component={Makimeny}/>
      <Route path="/branches/Marishoni" component={Marishoni}/>
      <Route path="/branches/Nandi" component={Nandi}/>
-     <Route path="/branches/Olenguruone" component={Olenguruone}/>
+     <Route path="/branches/Nakuru" component={Nakuru}/>
      <Route path="/branches/Transmara" component={Transmara}/>
      <Route path="/branches/Bomet" component={Bomet}/>
      

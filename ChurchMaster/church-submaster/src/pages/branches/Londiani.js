@@ -131,10 +131,10 @@ function Londiani() {
                 <p>Bendi Tai</p>
             </div>
             <div className="data">
-                <p>Pstr P MUtai</p>
+                <p>Pstr P Mutai</p>
             </div>
             <div className="data">
-                <p>C/ of Kakianga</p>
+                <p>C/of Kakianga</p>
             </div>
             <div className="data">
                 <p>24</p>

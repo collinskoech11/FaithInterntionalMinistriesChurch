@@ -3,7 +3,7 @@ import './style.css';
 import CountUp from 'react-countup';
 import NakuruOv from './img/NakuruOv.jpeg'
 
-function Olenguruone() {
+function Nakuru() {
     return (
         <>
         <div className="b-title">
@@ -256,4 +256,4 @@ function Olenguruone() {
     )
 }
 
-export default Olenguruone
+export default Nakuru

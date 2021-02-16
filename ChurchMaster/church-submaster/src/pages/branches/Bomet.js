@@ -185,7 +185,7 @@ function Bomet() {
         </div>
         <div className="sub-branch">
             <div className="data">
-                <p>Josea KIrui</p>
+                <p>Josea Kirui</p>
             </div>
             <div className="data">
                 <p></p>

@@ -71,11 +71,11 @@ render() {
                       <MDBDropdownItem href="/branches/AinamoiNoth">Ainamoi Region</MDBDropdownItem>      
                       <MDBDropdownItem href="/branches/Kipkelion">Kipkelion Region</MDBDropdownItem>
                       <MDBDropdownItem href="/branches/Londiani">Londiani Region</MDBDropdownItem>
-                      <MDBDropdownItem href="/branches/Olenguruone">Nakuru Region</MDBDropdownItem>
+                      <MDBDropdownItem href="/branches/Nakuru">Nakuru Region</MDBDropdownItem>
                       <MDBDropdownItem href="/branches/Kuresoi">Kuresoi Region</MDBDropdownItem>
                       <MDBDropdownItem href="/branches/Marishoni">Marishoni</MDBDropdownItem>
                       <MDBDropdownItem href="/branches/Changoi">Changoi Region</MDBDropdownItem>
-                      <MDBDropdownItem href="/branches/Litein">Litein Region</MDBDropdownItem>
+                      <MDBDropdownItem href="/branches/Litein">Bureti Region</MDBDropdownItem>
                       <MDBDropdownItem href="/branches/Makimeny">Makimeny</MDBDropdownItem>
                       <MDBDropdownItem href="/branches/Bomet">Bomet</MDBDropdownItem>
                       <MDBDropdownItem href="/branches/Transmara">Transmara</MDBDropdownItem>

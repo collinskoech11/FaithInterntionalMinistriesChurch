@@ -41,19 +41,41 @@ function Changoi() {
                 <h4>Number of Members</h4>
             </div>    
         </div>
+        <div className="b-title">
+            <h2>Changoi Church</h2>
+        </div>
+        <div className="b-head">
+            <div className="profile-img">
+                <img src="https://source.unsplash.com/400x200/?Bishop" alt="Branch head profile"/>
+            </div>
+            <div className="profile-text">
+            <h2>Overseer</h2>
+               <h1> Rev Ben Korir</h1>
+               <h3> <CountUp start={0} end={16} delay={0} duration={11}>
+                            {({ countUpRef }) => (
+                                <div>
+                                <span ref={countUpRef} />
+                                </div>
+                            )}
+                            </CountUp>Sub  Branches</h3>
+            </div>
+        </div>
+        <div className="sub-branch-title">
+            <h2>Our Sub branches</h2>
+        </div>
         <div className="sub-branch">
             <div className="data">
-                <p>Chebangang </p>
+                <h4>Church Name</h4>
             </div>
             <div className="data">
-                <p>Pstr Robert</p>
+                <h4>Pastors Name</h4>
             </div>
             <div className="data">
-                <p></p>
+                <h4>Pastors Contact</h4>              
             </div>
             <div className="data">
-                <p></p>
-            </div>  
+                <h4>Number of Members</h4>
+            </div>    
         </div>
         <div className="sub-branch">
             <div className="data">
