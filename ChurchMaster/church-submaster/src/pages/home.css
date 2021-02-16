@@ -5,6 +5,11 @@ video {
     position:static;
     z-index: 1;
   }
+  @media screen and (min-width:1000px){
+    video{
+      display:none;
+    }
+  }
   .hero-container {
     background: url('./videos/video-2.mp4') center center/cover no-repeat;
     height: auto;
