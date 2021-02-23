@@ -14,7 +14,23 @@ function Live() {
 
         <div className="col-lg-6" style={{marginBottom:'20px'}}>
             <div className="col-lg-6 col-md-6">
-              <h3>Latest Church Service</h3>
+              
+              <ReactPlayer
+                url="https://www.youtube.com/watch?v=qFJL8p6n3rU"
+                pip={true}
+                />
+               
+            </div>
+          </div>
+        </Animated>
+
+
+        <Animated animationIn="bounceInLeft" animationOut="fadeOut" isVisible={true} delay={6}>
+
+
+        <div className="col-lg-6" style={{marginBottom:'20px'}}>
+            <div className="col-lg-6 col-md-6">
+              
               <ReactPlayer
                 url="https://www.youtube.com/watch?v=J-cvX3he9b8"
                 pip={true}
@@ -23,11 +39,14 @@ function Live() {
             </div>
           </div>
         </Animated>
+
+
+        
         <Animated animationIn="bounceInLeft" animationOut="fadeOut" isVisible={true} delay={6}>
 
           <div className="col-lg-6" style={{marginBottom:'20px'}}>
             <div className="col-lg-6 col-md-6">
-              <h3>More Live Church Services</h3>
+              
               <ReactPlayer url="https://www.youtube.com/watch?v=fMGhZ5QorVk"/>
             </div>
           </div>
