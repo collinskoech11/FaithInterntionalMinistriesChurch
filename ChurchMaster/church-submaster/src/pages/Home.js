@@ -69,13 +69,10 @@ export default function Home() {
             </div>
             <div className="container">
                 <Chairman/>
-            </div>
-            
+            </div>          
             <div className="container">
                 <Upcoming/>
             </div>
-           
-           
         </div>
     )
 }
