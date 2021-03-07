@@ -14,6 +14,22 @@ function Live() {
       <Animated animationIn="bounceInLeft" animationOut="fadeOut" isVisible={true} delay={6}>
 
 
+      <div className="col-lg-6" style={{marginBottom:'20px'}}>
+          <div className="col-lg-6 col-md-6">
+            
+            <ReactPlayer
+              url="https://www.youtube.com/watch?v=lx8Srk4nA_Y"
+              pip={true}
+              />
+            
+          </div>
+        </div>
+      </Animated>
+
+
+      <Animated animationIn="bounceInLeft" animationOut="fadeOut" isVisible={true} delay={6}>
+
+
         <div className="col-lg-6" style={{marginBottom:'20px'}}>
             <div className="col-lg-6 col-md-6">
               
