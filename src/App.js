@@ -37,13 +37,8 @@ function App() {
      <Route path="/ContactUs" component={ContactUs}/>
      <Route path="/Location" component={Location}/>
      <Route path="/ContactDev" component={ContactDev}/>
-     
-     
-     
      {/*Profiles*/}
      <Route path="/SuperProfiles/Bishop" component={Bishop}/>
-     
-
      {/*Branches screens */}
      <Route path="/branches/AinamoiNoth" component={AinamoiNoth}/>
      <Route path="/branches/Changoi" component={Changoi}/>
